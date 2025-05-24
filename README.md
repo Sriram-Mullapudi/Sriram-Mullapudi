@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **srirammullapudi20@gmail.com**
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/1Ajlzf2k0Ykk3eK0ACXu3FKPioCsyuJn-lCD98wK7hGI/edit?tab=t.0](https://docs.google.com/document/d/1Ajlzf2k0Ykk3eK0ACXu3FKPioCsyuJn-lCD98wK7hGI/edit?tab=t.0)
+- 📄 Know about my experiences [https://docs.google.com/document/d/1Ajlzf2k0Ykk3eK0ACXu3FKPioCsyuJn-lCD98wK7hGI/edit?tab=t.0](https://docs.google.com/document/d/1Ajlzf2k0Ykk3eK0ACXu3FKPioCsyuJn-lCD98wK7hGI/edit?tab=t.0)](https://docs.google.com/document/d/1LX0nX7xFSBG3zB7W7A3eeBcZnrIEsskKQri222whLVQ/edit?tab=t.0)
 
 - ⚡ Fun fact **I can make spicy biryani and debug code at the same time!**
 
