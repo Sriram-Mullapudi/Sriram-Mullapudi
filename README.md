@@ -10,7 +10,7 @@
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srirammullapudi)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srirammullapudi20@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=srirammullapudi20@gmail.com)
 [![AWS](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-5B8EF6?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Sriram-Mullapudi)
 ![Views](https://komarev.com/ghpvc/?username=Sriram-Mullapudi&style=for-the-badge&color=5B8EF6&label=PROFILE+VIEWS)
@@ -301,6 +301,6 @@ Focus: Software Engineering · Operating Systems · Algorithms · Database Syste
 
 Tampa, FL &nbsp;·&nbsp; Open to relocation &nbsp;·&nbsp; Remote friendly
 
-[srirammullapudi20@gmail.com](mailto:srirammullapudi20@gmail.com) &nbsp;·&nbsp; [linkedin.com/in/srirammullapudi](https://linkedin.com/in/srirammullapudi) &nbsp;·&nbsp; [github.com/Sriram-Mullapudi](https://github.com/Sriram-Mullapudi)
+[srirammullapudi20@gmail.com](https://mail.google.com/mail/?view=cm&to=srirammullapudi20@gmail.com) &nbsp;·&nbsp; [linkedin.com/in/srirammullapudi](https://linkedin.com/in/srirammullapudi) &nbsp;·&nbsp; [github.com/Sriram-Mullapudi](https://github.com/Sriram-Mullapudi)
 
 </div>
