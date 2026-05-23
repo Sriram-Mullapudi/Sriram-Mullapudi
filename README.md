@@ -274,6 +274,19 @@ Focus: Software Engineering · Operating Systems · Algorithms · Database Syste
 
 ---
 
+
+---
+
+<div align="center">
+
+<img src="https://github.githubassets.com/images/modules/notifications/inbox-zero-dark.svg" width="320" alt="All caught up Octocat" />
+
+<br/>
+
+*Thanks for visiting — now go write some code* 🚀
+
+</div>
+
 <!-- FOOTER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:5B8EF6,40:0f3460,70:1a1a2e,100:0d1117&height=110&section=footer&animation=fadeIn" />
 
