@@ -13,7 +13,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srirammullapudi20@gmail.com)
 [![AWS](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-5B8EF6?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Sriram-Mullapudi)
-![Views](https://komarev.com/ghpvc/?username=sriram-mullapudi&style=for-the-badge&color=5B8EF6&label=PROFILE+VIEWS)
+![Views](https://komarev.com/ghpvc/?username=Sriram-Mullapudi&style=for-the-badge&color=5B8EF6&label=PROFILE+VIEWS)
 
 </div>
 
@@ -140,21 +140,22 @@ public class SriramMullapudi extends SoftwareEngineer {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sriram-mullapudi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=5B8EF6&icon_color=00d4aa&text_color=c9d1d9&rank_icon=github&include_all_commits=true&count_private=true" height="165"/>
+<!-- Stats card — uses cache bust to avoid GitHub proxy block -->
+<img src="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=5B8EF6&icon_color=00d4aa&text_color=c9d1d9&rank_icon=github&include_all_commits=true&count_private=true&cache_seconds=1800" height="165"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sriram-mullapudi&layout=compact&hide_border=true&bg_color=0d1117&title_color=5B8EF6&text_color=c9d1d9&langs_count=8&include_all_commits=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true&bg_color=0d1117&title_color=5B8EF6&text_color=c9d1d9&langs_count=8&cache_seconds=1800" height="165"/>
 
 </div>
 
 <div align="center">
 
-[![Streak](https://streak-stats.demolab.com?user=sriram-mullapudi&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5B8EF6&fire=00d4aa&currStreakLabel=5B8EF6&sideLabels=808090&dates=808090&stroke=1a1a2e)](https://git.io/streak-stats)
+[![Streak](https://streak-stats.demolab.com?user=Sriram-Mullapudi&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5B8EF6&fire=00d4aa&currStreakLabel=5B8EF6&sideLabels=808090&dates=808090&stroke=1a1a2e)](https://git.io/streak-stats)
 
 </div>
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sriram-mullapudi&bg_color=0d1117&color=5B8EF6&line=00d4aa&point=ffffff&area=true&hide_border=true&area_color=5B8EF615&custom_title=Contribution+Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Sriram-Mullapudi&bg_color=0d1117&color=5B8EF6&line=00d4aa&point=ffffff&area=true&hide_border=true&area_color=5B8EF615&custom_title=Contribution+Activity)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -169,7 +170,7 @@ public class SriramMullapudi extends SoftwareEngineer {
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=sriram-mullapudi&theme=nord&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=Sriram-Mullapudi&theme=nord&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
