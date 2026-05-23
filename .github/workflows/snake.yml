@@ -2,10 +2,13 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours
-  workflow_dispatch:           # run manually any time
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
+
+permissions:
+  contents: write   # ← THIS was missing — allows push to output branch
 
 jobs:
   build:
