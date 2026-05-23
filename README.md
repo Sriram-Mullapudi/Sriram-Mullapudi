@@ -1,31 +1,46 @@
+<!-- HEADER BANNER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:07070a,50:1a1a2e,100:5B8EF6&height=140&section=header&text=Sriram%20Mullapudi&fontSize=38&fontColor=ffffff&fontAlignY=55&animation=fadeIn&desc=Backend%20Software%20Engineer%20%C2%B7%20Tampa%2C%20FL&descSize=14&descAlignY=78&descColor=cacade" />
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=13&duration=3500&pause=1200&color=5B8EF6&center=true&vCenter=true&width=480&lines=Backend+Software+Engineer;Java+%C2%B7+Spring+Boot+%C2%B7+AWS+%C2%B7+React;Building+systems+that+stay+correct.;M.S.+CS+%40+USF+%C2%B7+GPA+3.96+%C2%B7+AWS+Certified" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=13&duration=3000&pause=1000&color=5B8EF6&center=true&vCenter=true&multiline=false&width=500&lines=Java+%C2%B7+Spring+Boot+%C2%B7+AWS+%C2%B7+PostgreSQL+%C2%B7+React;Building+systems+that+stay+correct+under+pressure.;M.S.+CS+%40+USF+%E2%80%94+GPA+3.96+%2F+4.0+%C2%B7+AWS+Certified" alt="Typing SVG" />
 
-# Sriram Mullapudi
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-srirammullapudi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/srirammullapudi)
-[![Email](https://img.shields.io/badge/Email-srirammullapudi20%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:srirammullapudi20@gmail.com)
-[![AWS](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
-![Profile Views](https://komarev.com/ghpvc/?username=sriram-mullapudi&style=flat-square&color=5B8EF6&label=Views)
-
-*Backend · Full Stack · M.S. Computer Science @ USF (GPA 3.96) · Tampa, FL*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srirammullapudi)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srirammullapudi20@gmail.com)
+[![AWS Certified](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
+[![Profile Views](https://komarev.com/ghpvc/?username=sriram-mullapudi&style=for-the-badge&color=5B8EF6&label=PROFILE+VIEWS)](https://github.com/Sriram-Mullapudi)
 
 </div>
 
 ---
 
-### About
+## About me
 
-Backend-focused engineer with **2+ years** shipping production services at Accenture and DigiCByte. I build Spring Boot microservices, event-driven workflows, and AWS-backed systems that handle real production load.
+```java
+public class SriramMullapudi {
 
-Outside work: distributed systems architecture, cryptography, algorithm design, and ML fairness.
+    String[] roles    = { "Backend Engineer", "Full Stack Developer" };
+    String   location = "Tampa, FL  —  open to relocation & remote";
+    String   degree   = "M.S. Computer Science @ USF  (GPA 3.96 / 4.0)";
+    String[] focus    = { "Spring Boot", "AWS", "PostgreSQL", "Event-Driven Systems" };
+    String[] learning = { "Apache Kafka", "Apache Camel", "Oracle Database" };
+    String   status   = "Open to full-time Backend / Full Stack / SWE roles";
 
-> *"I prefer understanding where systems fail before trying to optimize them."*
+    String philosophy() {
+        return "Understand where systems fail before trying to optimize them.";
+    }
+}
+```
 
 ---
 
-### Tech Stack
+## Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="33%">
 
 **Languages**
 
@@ -34,120 +49,158 @@ Outside work: distributed systems architecture, cryptography, algorithm design, 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-**Backend & Frameworks**
+</td>
+<td valign="top" width="33%">
+
+**Backend & Cloud**
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Spring Integration](https://img.shields.io/badge/Spring_Integration-6DB33F?style=flat-square)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-**Cloud & DevOps**
-
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 
-**Data**
+</td>
+<td valign="top" width="33%">
+
+**Data & Frontend**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-**Frontend**
-
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
-**Learning**
-
-![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+</td>
+</tr>
+</table>
 
 ---
 
-### GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sriram-mullapudi&show_icons=true&hide_border=true&bg_color=07070a&title_color=5B8EF6&icon_color=00d4aa&text_color=cacade&rank_icon=github&include_all_commits=true&count_private=true" />
-&nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sriram-mullapudi&layout=compact&hide_border=true&bg_color=07070a&title_color=5B8EF6&text_color=cacade&langs_count=8&include_all_commits=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=sriram-mullapudi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=5B8EF6&icon_color=00d4aa&text_color=c9d1d9&rank_icon=github&include_all_commits=true&count_private=true&show=reviews,discussions_started" height="170"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sriram-mullapudi&layout=compact&hide_border=true&bg_color=0d1117&title_color=5B8EF6&text_color=c9d1d9&langs_count=8&include_all_commits=true&count_private=true" height="170"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=sriram-mullapudi&theme=tokyonight&hide_border=true&background=07070a&ring=5B8EF6&fire=00d4aa&currStreakLabel=cacade&sideLabels=808090&dates=808090)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=sriram-mullapudi&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5B8EF6&fire=00d4aa&currStreakLabel=5B8EF6&sideLabels=808090&dates=808090&stroke=1a1a2e)](https://git.io/streak-stats)
+
+</div>
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sriram-mullapudi&bg_color=0d1117&color=5B8EF6&line=00d4aa&point=5B8EF6&area=true&hide_border=true&area_color=5B8EF620)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+<div align="center">
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=sriram-mullapudi&theme=nord&no-frame=true&no-bg=true&margin-w=8&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
 ---
 
-### Projects
+## Projects
 
-**Production Backend**
+### 🏗️ Production Backend
 
-| Repo | What it does | Stack |
-|---|---|---|
-| [Event-Driven Integration Service](https://github.com/Sriram-Mullapudi) | Async event pipeline with idempotent processing, retry logic & DLQ routing via AWS SQS | `Spring Boot` `Spring Integration` `AWS SQS` `PostgreSQL` `Docker` |
-| [Task Management Platform](https://github.com/Sriram-Mullapudi) | Full-stack app — JWT auth, API versioning, pagination, OpenAPI docs | `React.js` `Spring Boot` `PostgreSQL` `Docker` |
-| [Cargo Booker Pro](https://github.com/Sriram-Mullapudi/cargo-booker-pro) | Logistics system — booking, tracking, invoicing, admin panel | `Python` `Django` `SQLite` |
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [**Event-Driven Integration Service**](https://github.com/Sriram-Mullapudi) | Async pipeline — idempotent processing, exponential-backoff retry, DLQ routing via AWS SQS. Sub-100ms p95 under sustained load | `Spring Boot` `Spring Integration` `AWS SQS` `PostgreSQL` `Docker` |
+| [**Task Management Platform**](https://github.com/Sriram-Mullapudi) | Full-stack — JWT auth, API versioning, pagination, OpenAPI/Swagger docs, concurrent multi-user schema design | `React.js` `Spring Boot` `PostgreSQL` `JWT` `Docker` |
+| [**Cargo Booker Pro**](https://github.com/Sriram-Mullapudi/cargo-booker-pro) | Logistics system — booking workflows, real-time tracking, invoicing, admin panel | `Python` `Django` `SQLite` |
 
-**Algorithms & Systems**
+### 🔐 Algorithms & Cryptography
 
-| Repo | What it does | Stack |
-|---|---|---|
-| [Schnorr Digital Signature](https://github.com/Sriram-Mullapudi/Schnorr-Digital-Signature) | Implementation of the Schnorr signature scheme from scratch | `C` `Cryptography` |
-| [HORS Digital Signature](https://github.com/Sriram-Mullapudi/HORS-Digital-Signature) | Hash-to-Obtain-Random-Subset one-time signature scheme | `C` `Cryptography` |
-| [Omnidroid DP Algorithm](https://github.com/Sriram-Mullapudi/Omnidroid-DP-Algorithm) | Dynamic programming solution for optimal robot control scheduling | `Python` `Algorithms` |
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [**Schnorr Digital Signature**](https://github.com/Sriram-Mullapudi/Schnorr-Digital-Signature) | Schnorr signature scheme implemented from scratch — key gen, sign, verify | `C` `Cryptography` `Number Theory` |
+| [**HORS Digital Signature**](https://github.com/Sriram-Mullapudi/HORS-Digital-Signature) | Hash-to-Obtain-Random-Subset one-time signature scheme | `C` `Cryptography` |
+| [**Omnidroid DP Algorithm**](https://github.com/Sriram-Mullapudi/Omnidroid-DP-Algorithm) | Dynamic programming — optimal scheduling under robot control constraints | `Python` `Algorithms` `DP` |
 
-**ML & AI**
+### 🤖 Machine Learning & AI
 
-| Repo | What it does | Stack |
-|---|---|---|
-| [Fairness-Income-Prediction](https://github.com/Sriram-Mullapudi/Fairness-Income-Prediction) | Bias detection and fairness-aware ML on income classification | `Python` `ML` `Fairness` |
-| [Leaf Disease Detection](https://github.com/Sriram-Mullapudi/Leaf-Disease-Detection) | Transfer learning for disease classification on small labeled datasets | `Python` `Computer Vision` |
-
----
-
-### Experience
-
-```
-Accenture                    Associate Software Engineer       Jun 2023 – Jul 2024
-├── Spring Boot microservices serving 25k+ users in production
-├── PostgreSQL query optimization → 20% API response time improvement
-├── CI/CD (Jenkins + GitHub Actions) → 30% faster release cycles
-└── AWS cloud migration (EC2 · S3 · IAM · CloudWatch) → 15% fewer incidents
-
-DigiCByte Technologies       Software Engineer – Full Stack    Jun 2022 – May 2023
-├── 4 production client applications delivered end-to-end
-├── RESTful APIs serving 10k+ monthly active users
-├── JWT + Spring Security RBAC across all client platforms
-└── SQL schema optimization → 30% API response time improvement
-
-DigiCByte Technologies       Software Engineer Intern          Oct 2021 – May 2022
-└── React.js components + Spring Boot APIs · resolved 25+ production bugs
-```
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [**Fairness-Income-Prediction**](https://github.com/Sriram-Mullapudi/Fairness-Income-Prediction) | Bias detection and fairness-aware classification on income datasets | `Python` `ML` `Fairness` `Sklearn` |
+| [**Leaf Disease Detection**](https://github.com/Sriram-Mullapudi/Leaf-Disease-Detection) | Transfer learning on small labeled datasets — disease classification toward clinical use | `Python` `Computer Vision` `PyTorch` |
 
 ---
 
-### Education
+## Experience
 
 ```
-M.S. Computer Science       University of South Florida        GPA: 3.96 / 4.0
-├── Operating Systems  ·  Theory of Algorithms (A+)  ·  Computer Architecture
-├── Network Security   ·  Trustworthy AI Systems     ·  Cryptographic Hardware
-└── Human-Computer Interaction  ·  Wireless & Mobile Computing
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  Accenture  ·  Associate Software Engineer             Jun 2023 – Jul 2024  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  ✦  Spring Boot microservices serving 25k+ users — fault-tolerant, HA      │
+│  ✦  PostgreSQL query optimization → 20% API response time improvement      │
+│  ✦  CI/CD automation (Jenkins + GitHub Actions) → 30% faster releases      │
+│  ✦  AWS cloud migration (EC2 · S3 · IAM · CloudWatch) → 15% fewer issues  │
+│  ✦  80%+ test coverage (JUnit + Mockito) maintained every sprint            │
+└─────────────────────────────────────────────────────────────────────────────┘
 
-B.S. Computer Science & Engineering    Sathyabama Institute of Science and Technology
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  DigiCByte  ·  Software Engineer – Full Stack          Jun 2022 – May 2023  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  ✦  4 production client applications delivered end-to-end                  │
+│  ✦  RESTful APIs serving 10k+ monthly active users                         │
+│  ✦  JWT + Spring Security RBAC across all client-facing platforms           │
+│  ✦  SQL schema design + query optimization → 30% response improvement      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  DigiCByte  ·  Software Engineer Intern                Oct 2021 – May 2022  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  ✦  React.js components integrated with Spring Boot APIs                   │
+│  ✦  Resolved 25+ production bugs — improved release stability              │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
-
-[![AWS Certified](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
 
 ---
+
+## Education & Certification
+
+<table>
+<tr>
+<td>
+
+**🎓 M.S. Computer Science** — University of South Florida &nbsp; `GPA: 3.96 / 4.0`
+
+`Operating Systems` `Theory of Algorithms (A+)` `Computer Architecture (A)` `Network Security (A)` `Trustworthy AI` `Cryptographic Hardware` `Human-Computer Interaction` `Wireless & Mobile Computing`
+
+</td>
+</tr>
+<tr>
+<td>
+
+**🎓 B.S. Computer Science & Engineering** — Sathyabama Institute of Science and Technology
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![AWS](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
+
+</div>
+
+---
+
+<!-- FOOTER WAVE -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:5B8EF6,50:1a1a2e,100:07070a&height=100&section=footer&animation=fadeIn" />
 
 <div align="center">
 
