@@ -1,17 +1,15 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=14&duration=3500&pause=1200&color=5B8EF6&center=true&vCenter=true&width=440&lines=Backend+Software+Engineer;Java+%C2%B7+Spring+Boot+%C2%B7+AWS+%C2%B7+React;Building+systems+that+stay+correct." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=13&duration=3500&pause=1200&color=5B8EF6&center=true&vCenter=true&width=480&lines=Backend+Software+Engineer;Java+%C2%B7+Spring+Boot+%C2%B7+AWS+%C2%B7+React;Building+systems+that+stay+correct.;M.S.+CS+%40+USF+%C2%B7+GPA+3.96+%C2%B7+AWS+Certified" alt="Typing SVG" />
 
 # Sriram Mullapudi
 
-**Backend · Full Stack Software Engineer**
-
-M.S. Computer Science @ USF &nbsp;·&nbsp; GPA 3.96 / 4.0 &nbsp;·&nbsp; AWS Certified Cloud Practitioner
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-srirammullapudi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/srirammullapudi)
 [![Email](https://img.shields.io/badge/Email-srirammullapudi20%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:srirammullapudi20@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-5B8EF6?style=flat-square&logo=vercel&logoColor=white)](https://github.com/Sriram-Mullapudi)
-![Profile Views](https://komarev.com/ghpvc/?username=sriram-mullapudi&style=flat-square&color=5B8EF6&label=Profile+Views)
+[![AWS](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
+![Profile Views](https://komarev.com/ghpvc/?username=sriram-mullapudi&style=flat-square&color=5B8EF6&label=Views)
+
+*Backend · Full Stack · M.S. Computer Science @ USF (GPA 3.96) · Tampa, FL*
 
 </div>
 
@@ -19,23 +17,31 @@ M.S. Computer Science @ USF &nbsp;·&nbsp; GPA 3.96 / 4.0 &nbsp;·&nbsp; AWS Cer
 
 ### About
 
-Backend-focused engineer with **2+ years** shipping production services at Accenture and DigiCByte. I build Spring Boot microservices, event-driven workflows, and AWS-backed infrastructure that handles real load.
+Backend-focused engineer with **2+ years** shipping production services at Accenture and DigiCByte. I build Spring Boot microservices, event-driven workflows, and AWS-backed systems that handle real production load.
 
-I prefer understanding where systems fail before trying to optimize them — reliability, observability, and maintainability over clever abstractions.
+Outside work: distributed systems architecture, cryptography, algorithm design, and ML fairness.
 
-> *"Reliable software isn't accidental. I build systems engineered to stay correct under pressure."*
+> *"I prefer understanding where systems fail before trying to optimize them."*
 
 ---
 
 ### Tech Stack
 
-**Backend**
+**Languages**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Backend & Frameworks**
+
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-5B8EF6?style=flat-square)
-![Microservices](https://img.shields.io/badge/Microservices-5B8EF6?style=flat-square)
+![Spring Integration](https://img.shields.io/badge/Spring_Integration-6DB33F?style=flat-square)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 **Cloud & DevOps**
 
@@ -53,13 +59,11 @@ I prefer understanding where systems fail before trying to optimize them — rel
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 
 **Learning**
 
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![Apache Camel](https://img.shields.io/badge/Apache_Camel-E24329?style=flat-square)
+![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 
 ---
@@ -68,9 +72,9 @@ I prefer understanding where systems fail before trying to optimize them — rel
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=sriram-mullapudi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=07070a&title_color=5B8EF6&icon_color=00d4aa&text_color=cacade&rank_icon=github" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sriram-mullapudi&layout=compact&theme=tokyonight&hide_border=true&bg_color=07070a&title_color=5B8EF6&text_color=cacade&langs_count=6" alt="Top Languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=sriram-mullapudi&show_icons=true&hide_border=true&bg_color=07070a&title_color=5B8EF6&icon_color=00d4aa&text_color=cacade&rank_icon=github&include_all_commits=true&count_private=true" />
+&nbsp;
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sriram-mullapudi&layout=compact&hide_border=true&bg_color=07070a&title_color=5B8EF6&text_color=cacade&langs_count=8&include_all_commits=true" />
 
 </div>
 
@@ -80,22 +84,32 @@ I prefer understanding where systems fail before trying to optimize them — rel
 
 </div>
 
-<div align="center">
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=sriram-mullapudi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
 ---
 
-### Featured Projects
+### Projects
 
-| Project | Description | Stack |
+**Production Backend**
+
+| Repo | What it does | Stack |
 |---|---|---|
-| [**Event-Driven Integration Service**](https://github.com/Sriram-Mullapudi) | Message-driven microservice with idempotent event processing, retry logic, and DLQ routing via AWS SQS | `Spring Boot` `Spring Integration` `AWS SQS` `PostgreSQL` `Docker` |
-| [**Task Management Platform**](https://github.com/Sriram-Mullapudi) | Full-stack app with JWT auth, REST API versioning, pagination, and OpenAPI docs | `React.js` `Spring Boot` `PostgreSQL` `JWT` `Docker` |
-| [**Cargo Booker Pro**](https://github.com/Sriram-Mullapudi/cargo-booker-pro) | Logistics management system — booking, shipment tracking, admin panel | `Python` `Django` `SQLite` |
-| [**Leaf Disease Detection**](https://github.com/Sriram-Mullapudi/Leaf-Disease-Detection) | Transfer learning for disease classification on small labeled medical datasets | `Python` `Computer Vision` `ML` |
+| [Event-Driven Integration Service](https://github.com/Sriram-Mullapudi) | Async event pipeline with idempotent processing, retry logic & DLQ routing via AWS SQS | `Spring Boot` `Spring Integration` `AWS SQS` `PostgreSQL` `Docker` |
+| [Task Management Platform](https://github.com/Sriram-Mullapudi) | Full-stack app — JWT auth, API versioning, pagination, OpenAPI docs | `React.js` `Spring Boot` `PostgreSQL` `Docker` |
+| [Cargo Booker Pro](https://github.com/Sriram-Mullapudi/cargo-booker-pro) | Logistics system — booking, tracking, invoicing, admin panel | `Python` `Django` `SQLite` |
+
+**Algorithms & Systems**
+
+| Repo | What it does | Stack |
+|---|---|---|
+| [Schnorr Digital Signature](https://github.com/Sriram-Mullapudi/Schnorr-Digital-Signature) | Implementation of the Schnorr signature scheme from scratch | `C` `Cryptography` |
+| [HORS Digital Signature](https://github.com/Sriram-Mullapudi/HORS-Digital-Signature) | Hash-to-Obtain-Random-Subset one-time signature scheme | `C` `Cryptography` |
+| [Omnidroid DP Algorithm](https://github.com/Sriram-Mullapudi/Omnidroid-DP-Algorithm) | Dynamic programming solution for optimal robot control scheduling | `Python` `Algorithms` |
+
+**ML & AI**
+
+| Repo | What it does | Stack |
+|---|---|---|
+| [Fairness-Income-Prediction](https://github.com/Sriram-Mullapudi/Fairness-Income-Prediction) | Bias detection and fairness-aware ML on income classification | `Python` `ML` `Fairness` |
+| [Leaf Disease Detection](https://github.com/Sriram-Mullapudi/Leaf-Disease-Detection) | Transfer learning for disease classification on small labeled datasets | `Python` `Computer Vision` |
 
 ---
 
@@ -103,35 +117,44 @@ I prefer understanding where systems fail before trying to optimize them — rel
 
 ```
 Accenture                    Associate Software Engineer       Jun 2023 – Jul 2024
-├── Spring Boot microservices · 25k+ users · high-availability production
-├── PostgreSQL query optimization → 20% response time improvement
+├── Spring Boot microservices serving 25k+ users in production
+├── PostgreSQL query optimization → 20% API response time improvement
 ├── CI/CD (Jenkins + GitHub Actions) → 30% faster release cycles
 └── AWS cloud migration (EC2 · S3 · IAM · CloudWatch) → 15% fewer incidents
 
 DigiCByte Technologies       Software Engineer – Full Stack    Jun 2022 – May 2023
 ├── 4 production client applications delivered end-to-end
-├── RESTful APIs → 10k+ monthly active users
-├── JWT + Spring Security RBAC across all platforms
-└── SQL optimization → 30% response time improvement
+├── RESTful APIs serving 10k+ monthly active users
+├── JWT + Spring Security RBAC across all client platforms
+└── SQL schema optimization → 30% API response time improvement
+
+DigiCByte Technologies       Software Engineer Intern          Oct 2021 – May 2022
+└── React.js components + Spring Boot APIs · resolved 25+ production bugs
 ```
 
 ---
 
-### Education & Certification
+### Education
 
-**M.S. Computer Science** — University of South Florida *(GPA: 3.96 / 4.0)*
-`Operating Systems` `Algorithms` `Computer Architecture` `Network Security` `Trustworthy AI`
+```
+M.S. Computer Science       University of South Florida        GPA: 3.96 / 4.0
+├── Operating Systems  ·  Theory of Algorithms (A+)  ·  Computer Architecture
+├── Network Security   ·  Trustworthy AI Systems     ·  Cryptographic Hardware
+└── Human-Computer Interaction  ·  Wireless & Mobile Computing
 
-**B.S. Computer Science & Engineering** — Sathyabama Institute of Science and Technology
+B.S. Computer Science & Engineering    Sathyabama Institute of Science and Technology
+```
 
-[![AWS](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
+[![AWS Certified](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
 
 ---
 
 <div align="center">
 
-**Open to full-time Backend · Full Stack · SWE roles &nbsp;·&nbsp; Tampa, FL &nbsp;·&nbsp; Remote friendly**
+**Open to full-time Backend · Full Stack · SWE roles**
 
-`srirammullapudi20@gmail.com`
+Tampa, FL &nbsp;·&nbsp; Open to relocation &nbsp;·&nbsp; Remote friendly
+
+[srirammullapudi20@gmail.com](mailto:srirammullapudi20@gmail.com) &nbsp;·&nbsp; [linkedin.com/in/srirammullapudi](https://linkedin.com/in/srirammullapudi)
 
 </div>
