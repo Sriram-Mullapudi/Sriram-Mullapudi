@@ -19,38 +19,20 @@
 
 ---
 
-## `whoami`
+## About
 
-```java
-/**
- * Backend Software Engineer — 2026
- * Specialization: distributed systems, event-driven architecture, GenAI integration
- */
-public class SriramMullapudi extends SoftwareEngineer {
+```yaml
+name:       Sriram Mullapudi
+role:       Backend Software Engineer
+location:   Tampa, FL  ·  open to relocation & remote
+education:  M.S. Computer Science @ USF  (GPA 3.96 / 4.0)
+cert:       AWS Certified Cloud Practitioner
 
-    final String   location  = "Tampa, FL  ·  open to relocation & remote";
-    final String   education = "M.S. Computer Science @ USF  (GPA: 3.96 / 4.0)";
-    final String   cert      = "AWS Certified Cloud Practitioner";
+stack:      Java · Spring Boot · AWS · PostgreSQL · React
+exploring:  LLMs · RAG Pipelines · Apache Kafka · Agentic AI
 
-    final String[] backend   = { "Java", "Spring Boot", "Spring Integration",
-                                  "Spring Security", "REST APIs", "Microservices" };
-
-    final String[] cloud     = { "AWS (EC2, S3, SQS, IAM, CloudWatch)",
-                                  "Docker", "GitHub Actions", "Jenkins" };
-
-    final String[] ai        = { "LangChain4j", "OpenAI API", "RAG Pipelines",
-                                  "pgvector", "Prompt Engineering", "MCP Servers" };
-
-    final String[] learning  = { "Apache Kafka", "Agentic AI Workflows",
-                                  "Apache Camel", "Oracle DB" };
-
-    final String   status    = "Open to Backend · Full Stack · AI-integrated SWE roles";
-
-    @Override
-    String philosophy() {
-        return "Understand where systems fail before trying to optimize them.";
-    }
-}
+status:     Open to Backend / Full Stack / SWE roles
+motto:      "Understand where systems fail before trying to optimize them."
 ```
 
 ---
