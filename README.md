@@ -1,28 +1,80 @@
-<h1 align="center">Hi 👋, I'm Sriram Mullapudi</h1>
-<h3 align="center">A passionate fullstack developer</h3>
+```
+╔══════════════════════════════════════════════════╗
+║  Sriram Mullapudi  ·  Backend Software Engineer  ║
+╚══════════════════════════════════════════════════╝
+```
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sriram-mullapudi&label=Profile%20views&color=0e75b6&style=flat" alt="sriram-mullapudi" /> </p>
+**Java · Spring Boot · React · AWS · PostgreSQL**
 
-- 🔭 I’m currently working on **AI for Early Disease Detection**
+Backend-focused software engineer with 2+ years building scalable production services and event-driven systems. M.S. Computer Science @ University of South Florida — GPA 3.96. AWS Certified Cloud Practitioner.
 
-- 🌱 I’m currently learning **Machine Learning, AI, AWS**
+I focus on systems that stay correct under pressure — reliable APIs, async event workflows, deployment confidence, and maintainable code.
 
-- 👯 I’m looking to collaborate on **Front-End Web Projects**
+---
 
-- 🤝 I’m looking for help with **AWS Certification Prep**
+### What I work with
 
-- 💬 Ask me about **Java, ML, Python, React, Git, College life in the US**
+**Backend**
+`Java` `Spring Boot` `Spring Integration` `Spring Security` `REST APIs` `Microservices`
 
-- 📫 How to reach me **srirammullapudi20@gmail.com**
+**Cloud & DevOps**
+`AWS (EC2 · S3 · SQS · IAM · CloudWatch)` `Docker` `GitHub Actions` `Jenkins`
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/1Ajlzf2k0Ykk3eK0ACXu3FKPioCsyuJn-lCD98wK7hGI/edit?tab=t.0](https://docs.google.com/document/d/1Ajlzf2k0Ykk3eK0ACXu3FKPioCsyuJn-lCD98wK7hGI/edit?tab=t.0)](https://docs.google.com/document/d/1LX0nX7xFSBG3zB7W7A3eeBcZnrIEsskKQri222whLVQ/edit?tab=t.0)
+**Data**
+`PostgreSQL` `MySQL` `MongoDB` `Query optimization` `Schema design`
 
-- ⚡ Fun fact **I can make spicy biryani and debug code at the same time!**
+**Frontend**
+`React.js` `HTML5 / CSS3` `Angular`
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/srirammullapudi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/srirammullapudi/" height="30" width="40" /></a>
-</p>
+**Testing**
+`JUnit` `Mockito` `Integration testing`
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> </p>
+**Learning**
+`Apache Kafka` `Apache Camel` `Oracle Database`
+
+---
+
+### Selected projects
+
+**[Event-Driven Integration Service](https://github.com/Sriram-Mullapudi)**
+Message-driven microservice with Spring Integration pipelines consuming from AWS SQS. Implements idempotent event processing — duplicate-safe across retries and concurrent consumers. Dead-letter queue routing after max retries. Deployed via Docker + GitHub Actions.
+`Spring Boot` `Spring Integration` `AWS SQS` `PostgreSQL` `Docker`
+
+**[Full Stack Task Management Platform](https://github.com/Sriram-Mullapudi)**
+React.js frontend with Spring Boot REST API, JWT authentication, API versioning, pagination, and OpenAPI/Swagger docs. PostgreSQL schema designed upfront with constraints and indexes for concurrent multi-user load.
+`React.js` `Spring Boot` `PostgreSQL` `JWT` `Docker`
+
+**[Cargo Booker Pro](https://github.com/Sriram-Mullapudi/cargo-booker-pro)**
+End-to-end logistics management system — booking workflows, shipment tracking, admin operations.
+`Python` `Django` `SQLite`
+
+**[Leaf Disease Detection](https://github.com/Sriram-Mullapudi/Leaf-Disease-Detection)**
+Transfer learning for disease classification on small labeled datasets — the core bottleneck in healthcare AI where expert annotation is scarce.
+`Python` `Computer Vision` `Transfer Learning`
+
+---
+
+### Experience
+
+**Accenture** — Associate Software Engineer *(Jun 2023 – Jul 2024)*
+Spring Boot microservices for 25k+ users · AWS cloud migration · CI/CD pipelines cutting release cycles 30% · 80%+ test coverage sprint-to-sprint
+
+**DigiCByte** — Software Engineer *(Jun 2022 – May 2023)*
+4 production client applications end-to-end · RESTful APIs for 10k+ monthly users · JWT + RBAC security · MongoDB integration
+
+---
+
+### Education
+
+**M.S. Computer Science** — University of South Florida · GPA **3.96 / 4.0**
+Coursework: Operating Systems · Algorithms · Computer Architecture · Network Security · Trustworthy AI
+
+**B.S. Computer Science & Engineering** — Sathyabama Institute of Science and Technology
+
+**AWS Certified Cloud Practitioner** — Amazon Web Services
+
+---
+
+### Reach me
+
+`srirammullapudi20@gmail.com` · [LinkedIn](https://linkedin.com/in/srirammullapudi) · Tampa, FL · Open to full-time roles
