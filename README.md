@@ -12,7 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srirammullapudi)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srirammullapudi20@gmail.com)
 [![AWS](https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-5B8EF6?style=for-the-badge&logo=vercel&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-5B8EF6?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Sriram-Mullapudi)
 ![Views](https://komarev.com/ghpvc/?username=sriram-mullapudi&style=for-the-badge&color=5B8EF6&label=PROFILE+VIEWS)
 
 </div>
@@ -66,7 +66,6 @@ public class SriramMullapudi extends SoftwareEngineer {
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
@@ -85,7 +84,7 @@ public class SriramMullapudi extends SoftwareEngineer {
 </td>
 <td valign="top" width="25%">
 
-**Data**
+**Data & Frontend**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -93,6 +92,7 @@ public class SriramMullapudi extends SoftwareEngineer {
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 
 </td>
 <td valign="top" width="25%">
@@ -195,7 +195,7 @@ public class SriramMullapudi extends SoftwareEngineer {
 
 | Project | What it solves | Stack |
 |:--------|:---------------|:------|
-| [**Fairness-Income-Prediction**](https://github.com/Sriram-Mullapudi/Fairness-Income-Prediction) | Bias detection and fairness-aware ML — measuring disparate impact in income classification models | `Python` `Scikit-learn` `ML Fairness` `Jupyter` |
+| [**Fairness-Income-Prediction**](https://github.com/Sriram-Mullapudi/Fairness-Income-Prediction) | Bias detection and fairness-aware ML — measuring disparate impact in income classification models | `Python` `Scikit-learn` `Pandas` `Jupyter` |
 | [**Leaf Disease Detection**](https://github.com/Sriram-Mullapudi/Leaf-Disease-Detection) | Transfer learning on small labeled datasets — disease classification toward clinical use cases | `Python` `PyTorch` `Computer Vision` `Transfer Learning` |
 
 </details>
@@ -300,6 +300,6 @@ Focus: Software Engineering · Operating Systems · Algorithms · Database Syste
 
 Tampa, FL &nbsp;·&nbsp; Open to relocation &nbsp;·&nbsp; Remote friendly
 
-[srirammullapudi20@gmail.com](mailto:srirammullapudi20@gmail.com) &nbsp;·&nbsp; [linkedin.com/in/srirammullapudi](https://linkedin.com/in/srirammullapudi)
+[srirammullapudi20@gmail.com](mailto:srirammullapudi20@gmail.com) &nbsp;·&nbsp; [linkedin.com/in/srirammullapudi](https://linkedin.com/in/srirammullapudi) &nbsp;·&nbsp; [github.com/Sriram-Mullapudi](https://github.com/Sriram-Mullapudi)
 
 </div>
