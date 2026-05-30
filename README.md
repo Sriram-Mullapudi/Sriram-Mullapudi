@@ -299,3 +299,5 @@ Tampa, FL &nbsp;·&nbsp; Open to relocation &nbsp;·&nbsp; Remote friendly
 [srirammullapudi20@gmail.com](https://mail.google.com/mail/?view=cm&to=srirammullapudi20@gmail.com) &nbsp;·&nbsp; [linkedin.com/in/srirammullapudi](https://linkedin.com/in/srirammullapudi) &nbsp;·&nbsp; [github.com/Sriram-Mullapudi](https://github.com/Sriram-Mullapudi)
 
 </div>
+-   U p d a t e d   r e s u m e   a n d   A I   p r o j e c t   n o t e s   o n   0 5 / 2 9 / 2 0 2 6   2 0 : 4 8 : 3 8  
+ 
