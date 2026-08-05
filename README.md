@@ -276,7 +276,6 @@ Also delete every remaining URL containing either of these domains from README.m
 github-readme-stats.vercel.app
 streak-stats.demolab.com
 
-Your contribution snake workflow is unrelated to these three broken cards and does not need to be changed.
 
 <!-- =========================== ACHIEVEMENTS ========================== -->
 
