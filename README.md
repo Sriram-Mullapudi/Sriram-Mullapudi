@@ -1,11 +1,11 @@
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
 <!-- ║  HEADER — venom type for dramatic cinematic feel            ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:1a1a2e,70:0f3460,100:5B8EF6&height=200&section=header&text=Sriram%20Mullapudi&fontSize=52&fontColor=ffffff&fontAlignY=55&animation=fadeIn&desc=Backend%20Engineer%20%E2%80%94%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20AWS%20%C2%B7%20GenAI&descSize=15&descAlignY=74&descColor=5B8EF6&stroke=5B8EF6&strokeWidth=1" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:1a1a2e,70:0f3460,100:5B8EF6&height=200&section=header&text=Sriram%20Mullapudi&fontSize=52&fontColor=ffffff&fontAlignY=55&animation=fadeIn&desc=Full-Stack%20Engineer%20%E2%80%94%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20React%20%C2%B7%20AWS&descSize=15&descAlignY=74&descColor=5B8EF6&stroke=5B8EF6&strokeWidth=1" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=13&duration=2800&pause=900&color=5B8EF6&center=true&vCenter=true&width=560&lines=Building+backend+systems+that+stay+correct+under+pressure.;Java+%C2%B7+Spring+Boot+%C2%B7+AWS+%C2%B7+PostgreSQL+%C2%B7+React;Integrating+LLMs+into+production+backend+services.;M.S.+CS+%40+USF+%E2%80%94+GPA+3.96+%2F+4.0+%C2%B7+AWS+Certified" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=13&duration=2800&pause=900&color=5B8EF6&center=true&vCenter=true&width=600&lines=Building+full-stack+systems+for+high-volume+payments+%26+identity+platforms.;Java+%C2%B7+Spring+Boot+%C2%B7+React+%C2%B7+Kafka+%C2%B7+AWS;Shipping+event-driven+microservices+at+scale+%E2%80%94+10M%2B+txns%2Fyr.;M.S.+CS+%40+USF+%E2%80%94+GPA+3.96+%2F+4.0+%C2%B7+AWS+Certified" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -22,17 +22,18 @@
 ## About
 
 ```yaml
-name:       Sriram Mullapudi
-role:       Backend Software Engineer
-location:   Tampa, FL  ·  open to relocation & remote
-education:  M.S. Computer Science @ USF  (GPA 3.96 / 4.0)
-cert:       AWS Certified Cloud Practitioner
+name:        Sriram Mullapudi
+role:        Full-Stack Software Engineer
+experience:  4+ years — Java/Spring Boot services & React apps for payment and identity systems
+location:    Tampa, FL  ·  open to relocation
+education:   M.S. Computer Science @ USF  (GPA 3.96 / 4.0)
+cert:        AWS Certified Cloud Practitioner
 
-stack:      Java · Spring Boot · AWS · PostgreSQL · React
-exploring:  LLMs · RAG Pipelines · Apache Kafka · Agentic AI
+stack:       Java · Spring Boot · React · Kafka · AWS
+also using:  TypeScript · Rust · PostgreSQL/pgvector · Terraform
 
-status:     Open to Backend / Full Stack / SWE roles
-motto:      "Understand where systems fail before trying to optimize them."
+status:      Open to Full-Stack / Backend Software Engineer roles
+motto:       "Understand where systems fail before trying to optimize them."
 ```
 
 ---
@@ -41,79 +42,114 @@ motto:      "Understand where systems fail before trying to optimize them."
 
 <table>
 <tr>
-<td valign="top" width="25%">
+<td valign="top" width="33%">
 
 **Languages**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 </td>
-<td valign="top" width="25%">
+<td valign="top" width="33%">
 
-**Backend & Cloud**
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+</td>
+<td valign="top" width="33%">
+
+**Backend**
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
+
+**Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+</td>
+<td valign="top" width="33%">
+
+**Cloud & DevOps**
+
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 
 </td>
-<td valign="top" width="25%">
+<td valign="top" width="33%">
 
-**Data & Frontend**
+**Testing & Tools**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-
-</td>
-<td valign="top" width="25%">
-
-**AI / GenAI ✦ 2026**
-
-![LangChain](https://img.shields.io/badge/LangChain4j-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-5B8EF6?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP_Servers-00d4aa?style=flat-square)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-78C257?style=flat-square)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </td>
 </tr>
 </table>
 
+<div align="center">
+
+*Also comfortable with: microservices · event-driven systems · API design · idempotent processing · multi-tenant systems · RAG*
+
+</div>
+
 ---
 
-## 2026 Focus
+## Focus
 
-> *The backend engineer of 2026 doesn't just build APIs — they wire intelligent workflows into reliable, observable, production-grade systems.*
+> *Full-stack engineering for systems that can't afford to be wrong — payments, identity, and the data layers underneath them.*
 
 ```
-┌──────────────────────────────────────────────────────────────────────────┐
-│  What I'm focused on right now                                           │
-├────────────────────────────┬─────────────────────────────────────────────┤
-│  LLM-backed microservices  │  Integrating LLM inference into Spring Boot │
-│                            │  services with streaming responses + caching │
-├────────────────────────────┼─────────────────────────────────────────────┤
-│  RAG over structured data  │  pgvector + PostgreSQL hybrid search for     │
-│                            │  grounded, hallucination-resistant retrieval │
-├────────────────────────────┼─────────────────────────────────────────────┤
-│  Agentic event workflows   │  Multi-step AI agents inside event-driven    │
-│                            │  pipelines — retry-safe, idempotent, traced │
-├────────────────────────────┼─────────────────────────────────────────────┤
-│  MCP server development    │  Building MCP-compatible tool servers for    │
-│                            │  AI agents to call backend APIs safely       │
-└────────────────────────────┴─────────────────────────────────────────────┘
+┌────────────────────────────┬───────────────────────────────────────────────┐
+│  What I've been building   │                                               │
+├────────────────────────────┼───────────────────────────────────────────────┤
+│  Event-driven payments     │  Kafka workflows processing 500K+ events/day  │
+│                            │  across a platform handling 10M+ txns/year    │
+├────────────────────────────┼───────────────────────────────────────────────┤
+│  Hybrid RAG search         │  pgvector + PostgreSQL full-text + RRF for    │
+│                            │  citation-backed, hallucination-resistant     │
+│                            │  answers streamed over SSE                    │
+├────────────────────────────┼───────────────────────────────────────────────┤
+│  Offline-first systems     │  Rust + Tauri desktop POS — atomic SQLite     │
+│                            │  transactions, RBAC, Argon2 auth              │
+├────────────────────────────┼───────────────────────────────────────────────┤
+│  Ops-facing dashboards     │  React / TS / Redux Toolkit tools used daily  │
+│                            │  by 150+ operations analysts                  │
+└────────────────────────────┴───────────────────────────────────────────────┘
 ```
 
 ---
@@ -200,40 +236,37 @@ motto:      "Understand where systems fail before trying to optimize them."
 ## Experience
 
 <details open>
-<summary><b>Accenture — Associate Software Engineer &nbsp;&nbsp;<code>Jun 2023 – Jul 2024</code></b></summary>
+<summary><b>JPMorgan Chase & Co. — Software Engineer, Full Stack &nbsp;&nbsp;<code>Mar 2025 – May 2026</code></b></summary>
 
 ```
-✦  Spring Boot microservices serving 25k+ users — fault-tolerant, high-availability production
-✦  PostgreSQL query plan optimization & indexing  →  20% API response time improvement
-✦  CI/CD automation (Jenkins + GitHub Actions)    →  30% faster release cycles
-✦  AWS cloud migration (EC2 · S3 · IAM · CloudWatch)  →  15% fewer production incidents
-✦  80%+ unit test coverage (JUnit + Mockito) maintained every sprint
-✦  Prototyped async event-driven workflow automation integrating external REST APIs
+✦  Java 17 + Spring Boot services for payment validation, routing, and status tracking
+   across a distributed platform handling 10M+ transactions annually
+✦  Migrated synchronous validation flows to event-driven Kafka workflows (500K+ events/day) —
+   idempotent consumers, recovery paths, downstream failure isolation → 30% latency reduction
+✦  React, TypeScript, and Redux Toolkit investigation dashboards used daily by 150+ operations
+   analysts, replacing manual application-log searches
+✦  Raised automated test coverage from 65% to 85%+ (JUnit 5, Mockito, Cypress) and enforced
+   SonarQube quality gates across Jenkins and GitHub Actions pipelines
+✦  Designed Oracle and PostgreSQL schemas and data-access layers for payment workflows
 ```
-`Java` `Spring Boot` `PostgreSQL` `AWS` `Jenkins` `GitHub Actions` `JUnit` `Mockito`
+`Java 17` `Spring Boot` `Kafka` `React` `TypeScript` `Redux Toolkit` `Oracle` `PostgreSQL` `JUnit 5` `Mockito` `Cypress` `SonarQube`
 </details>
 
-<details>
-<summary><b>DigiCByte Technologies — Software Engineer – Full Stack &nbsp;&nbsp;<code>Jun 2022 – May 2023</code></b></summary>
+<details open>
+<summary><b>Accenture — Associate Software Engineer &nbsp;&nbsp;<code>Oct 2021 – Jul 2024</code></b></summary>
 
 ```
-✦  4 production client applications delivered end-to-end across full SDLC
-✦  RESTful APIs serving 10k+ monthly active users
-✦  JWT + Spring Security RBAC across all client-facing platforms
-✦  SQL schema design + query optimization  →  30% API response time improvement
-✦  MongoDB integration for schema-flexible, high-volume content workflows
+✦  Okta-based OAuth 2.0/JWT authentication + Spring Security RBAC for applications serving 25K+ users
+✦  Automated user provisioning, role assignment, and access management via Microsoft Graph and
+   Google Workspace APIs
+✦  Containerized and migrated backend services to AWS (EC2, S3, IAM, Docker, CloudWatch) →
+   15% reduction in production incidents
+✦  Tuned MySQL and PostgreSQL queries for high-volume REST endpoints → 20% faster response times
+✦  Raised automated test coverage to 80%+ across backend services; mentored three junior
+   engineers through code reviews and structured debugging sessions
+✦  Recognized as an Outstanding Performer for team-level initiatives and deliverables
 ```
-`React.js` `Spring Boot` `MySQL` `MongoDB` `JWT` `Spring Security`
-</details>
-
-<details>
-<summary><b>DigiCByte Technologies — Software Engineer Intern &nbsp;&nbsp;<code>Oct 2021 – May 2022</code></b></summary>
-
-```
-✦  React.js UI components integrated with Spring Boot REST APIs
-✦  Resolved 25+ frontend and backend production bugs — improved release stability
-```
-`React.js` `Spring Boot` `MySQL` `HTML/CSS`
+`Java` `Spring Boot` `Spring Security` `OAuth 2.0` `JWT` `AWS` `Docker` `MySQL` `PostgreSQL`
 </details>
 
 ---
@@ -269,11 +302,9 @@ Focus: Software Engineering · Operating Systems · Algorithms · Database Syste
 <div align="center">
 
 [![AWS](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/certification/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-1%2C436_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
 
 </div>
-
----
-
 
 ---
 
@@ -292,12 +323,10 @@ Focus: Software Engineering · Operating Systems · Algorithms · Database Syste
 
 <div align="center">
 
-**Open to full-time Backend · Full Stack · AI-integrated SWE roles**
+**Open to full-time Full-Stack · Backend Software Engineer roles**
 
 Tampa, FL &nbsp;·&nbsp; Open to relocation &nbsp;·&nbsp; Remote friendly
 
 [srirammullapudi20@gmail.com](https://mail.google.com/mail/?view=cm&to=srirammullapudi20@gmail.com) &nbsp;·&nbsp; [linkedin.com/in/srirammullapudi](https://linkedin.com/in/srirammullapudi) &nbsp;·&nbsp; [github.com/Sriram-Mullapudi](https://github.com/Sriram-Mullapudi)
 
 </div>
--   U p d a t e d   r e s u m e   a n d   A I   p r o j e c t   n o t e s   o n   0 5 / 2 9 / 2 0 2 6   2 0 : 4 8 : 3 8  
- 
