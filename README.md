@@ -11,7 +11,7 @@
 
 <!-- ============================== HERO ============================== -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B0E14,45:111827,100:2563EB&text=Sriram%20Mullapudi&fontColor=F8FAFC&fontSize=44&fontAlignY=38&desc=Full[...]
+![Sriram Mullapudi — Full-Stack Software Engineer](https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B0E14,45:111827,100:2563EB&text=Sriram%20Mullapudi&fontColor=F8FAFC&fontSize=44&fontAlignY=38&desc=Full-Stack%20Software%20Engineer&descAlignY=59&descSize=19&animation=fadeIn)
 
 <div align="center">
 
