@@ -1,136 +1,334 @@
-<img src="assets/banner.svg" width="100%" alt="Sriram Mullapudi — Full-Stack Software Engineer" />
+<!--
+  GitHub Profile README for Sriram Mullapudi
+  Profile repository must be public and named exactly: Sriram-Mullapudi
+  Verified profile username used throughout: Sriram-Mullapudi
+
+  Before publishing:
+  1. Replace YOUR_LEETCODE_USERNAME after confirming your exact LeetCode handle.
+  2. Replace YOUR_CREDLY_CREDENTIAL_URL with the public AWS credential URL.
+  3. Enable the contribution-snake workflow described after this README.
+-->
+
+<!-- ============================== HERO ============================== -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B0E14,45:111827,100:2563EB&text=Sriram%20Mullapudi&fontColor=F8FAFC&fontSize=44&fontAlignY=38&desc=Full-Stack%20Software%20Engineer&descAlignY=59&descSize=19&animation=fadeIn" alt="Sriram Mullapudi — Full-Stack Software Engineer" />
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B0E14?style=for-the-badge&logo=linkedin&logoColor=5B8EF6&labelColor=0B0E14)](https://linkedin.com/in/srirammullapudi)
-[![Email](https://img.shields.io/badge/Email-0B0E14?style=for-the-badge&logo=maildotru&logoColor=5B8EF6&labelColor=0B0E14)](mailto:srirammullapudi20@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-0B0E14?style=for-the-badge&logo=leetcode&logoColor=5B8EF6&labelColor=0B0E14)](https://leetcode.com/)
-[![AWS Certified](https://img.shields.io/badge/AWS_Certified-0B0E14?style=for-the-badge&logo=amazonwebservices&logoColor=5B8EF6&labelColor=0B0E14)](https://aws.amazon.com/certification/)
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&repeat=true&width=780&height=42&lines=Java+%2B+Spring+Boot+services+for+high-volume+systems;React+%2B+TypeScript+applications+for+operational+workflows;Kafka+pipelines+processing+500K%2B+events+per+day;Reliable+software+for+payments%2C+identity%2C+and+data" alt="Animated professional summary" />
+</a>
+
+<br/>
+
+<a href="mailto:srirammullapudi20@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0B0E14?style=for-the-badge&logo=gmail&logoColor=60A5FA" alt="Email" />
+</a>
+<a href="https://linkedin.com/in/srirammullapudi">
+  <img src="https://img.shields.io/badge/LinkedIn-0B0E14?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="LinkedIn" />
+</a>
+<a href="https://github.com/Sriram-Mullapudi">
+  <img src="https://img.shields.io/badge/GitHub-0B0E14?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub" />
+</a>
+
+<!-- Replace YOUR_LEETCODE_USERNAME, then uncomment this badge.
+<a href="https://leetcode.com/u/YOUR_LEETCODE_USERNAME/">
+  <img src="https://img.shields.io/badge/LeetCode-0B0E14?style=for-the-badge&logo=leetcode&logoColor=F59E0B" alt="LeetCode" />
+</a>
+-->
+
+<!-- Replace YOUR_CREDLY_CREDENTIAL_URL, then uncomment this badge.
+<a href="YOUR_CREDLY_CREDENTIAL_URL">
+  <img src="https://img.shields.io/badge/AWS_Certified-0B0E14?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS Certified Cloud Practitioner" />
+</a>
+-->
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Sriram-Mullapudi&style=flat-square&color=2563EB&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
-<br/>
+<!-- =========================== INTRODUCTION ========================== -->
 
-I build **Java and Spring Boot services** and **React front ends** for systems where being wrong is expensive — payments, identity, and the data layers underneath them. Four years in, most of that work has been about the unglamorous parts: making event consumers idempotent, isolating downstream failures, and giving operations teams a screen that answers their question without a log search.
+## Engineering reliable systems at scale
 
-Currently finishing an **M.S. in Computer Science at USF** (GPA 3.96) and open to full-stack and backend engineering roles.
+I am a **full-stack software engineer with 4+ years of experience** building **Java and Spring Boot services** and **React applications** for high-volume **payment and identity systems**.
 
-<img src="assets/metrics.svg" width="100%" alt="10M+ transactions per year · 500K+ Kafka events per day · 150+ daily dashboard users · 30% latency reduction" />
-
-<br/>
-
-## Selected Work
-
-### Multi-Tenant Knowledge Search Platform
-
-Hybrid document retrieval that stays grounded: **pgvector HNSW** vector search fused with **PostgreSQL full-text search** via Reciprocal Rank Fusion, streaming citation-backed answers over Server-Sent Events — with a keyword-search fallback for when the LLM service is down. Tenant isolation enforced end to end through JWT and refresh-token auth, RBAC, owner-scoped queries, execution tracing, and append-only audit records. Infrastructure provisioned as code.
-
-<sub>`Java 17` · `Spring Boot` · `React` · `PostgreSQL/pgvector` · `Redis` · `ECS Fargate` · `Terraform` · `GitHub Actions (OIDC)`</sub>
-
-### Offline-First Point-of-Sale System
-
-An installable Windows POS that keeps selling when the network doesn't — offline sales, refunds, inventory, promotions, loyalty, and shift reconciliation. Pricing, promotion, and authorization rules live in the **Rust** core rather than the UI; transaction integrity is held by atomic SQLite operations, RBAC, Argon2 PIN hashing, append-only audit logs, and duplicate-payment controls.
-
-<sub>`Rust` · `Tauri 2` · `SQLite` · `React` · `TypeScript`</sub>
-
-<br/>
-
-<details>
-<summary><b>More projects</b></summary>
-<br/>
-
-| Project | What it solves | Stack |
-|:--------|:---------------|:------|
-| [**Event-Driven Integration Service**](https://github.com/Sriram-Mullapudi) | Async pipeline with idempotent processing, exponential-backoff retry, and DLQ routing | `Spring Boot` `AWS SQS` `PostgreSQL` `Docker` |
-| [**Task Management Platform**](https://github.com/Sriram-Mullapudi) | Full-stack app — JWT auth, API versioning, pagination, OpenAPI docs, concurrent schema design | `React` `Spring Boot` `PostgreSQL` `Docker` |
-| [**Cargo Booker Pro**](https://github.com/Sriram-Mullapudi/cargo-booker-pro) | Logistics booking workflows, shipment tracking, invoicing, admin panel | `Python` `Django` `SQLite` |
-| [**Fairness-Income-Prediction**](https://github.com/Sriram-Mullapudi/Fairness-Income-Prediction) | Measuring disparate impact in income classification models | `Python` `Scikit-learn` `Pandas` |
-| [**Leaf Disease Detection**](https://github.com/Sriram-Mullapudi/Leaf-Disease-Detection) | Transfer learning for classification on small labeled datasets | `Python` `PyTorch` |
-| [**Schnorr Digital Signature**](https://github.com/Sriram-Mullapudi/Schnorr-Digital-Signature) | Full Schnorr scheme from scratch — keygen, signing, verification | `C` `Number Theory` |
-| [**HORS Digital Signature**](https://github.com/Sriram-Mullapudi/HORS-Digital-Signature) | Hash-to-Obtain-Random-Subset stateless one-time signatures | `C` `Hash Functions` |
-| [**Omnidroid DP Algorithm**](https://github.com/Sriram-Mullapudi/Omnidroid-DP-Algorithm) | Optimal scheduling under robot control constraints via dynamic programming | `Python` `Algorithms` |
-
-</details>
-
-<br/>
-
-## Experience
-
-**Software Engineer, Full Stack — Payments Platform** · JPMorgan Chase & Co. &nbsp;<sub>`Mar 2025 – May 2026 · Tampa, FL`</sub>
-
-- Built Java 17 and Spring Boot services for payment validation, routing, and status tracking across a distributed platform handling **10M+ transactions annually**.
-- Migrated synchronous validation flows to event-driven **Kafka workflows processing 500K+ events daily** — idempotent consumers, recovery paths, and downstream failure isolation cut end-to-end latency **30%**.
-- Shipped React, TypeScript, and Redux Toolkit investigation dashboards used daily by **150+ operations analysts**, replacing manual application-log searches with live payment status and failure detail.
-- Raised automated test coverage from **65% to 85%+** with JUnit 5, Mockito, and Cypress, and enforced SonarQube quality gates across Jenkins and GitHub Actions pipelines.
-- Designed Oracle and PostgreSQL schemas and data-access layers for payment validation, routing, and status workflows.
-
-<br/>
-
-**Associate Software Engineer** · Accenture &nbsp;<sub>`Oct 2021 – Jul 2024 · Chennai, India`</sub>
-
-- Implemented Okta-based OAuth 2.0/JWT authentication and Spring Security role-based access control for applications serving **25K+ users**.
-- Automated user provisioning, role assignment, and access management through Microsoft Graph and Google Workspace APIs.
-- Containerized and migrated backend services to AWS (EC2, S3, IAM, Docker, CloudWatch), contributing to a **15% reduction in production incidents**.
-- Tuned MySQL and PostgreSQL queries for high-volume REST endpoints, cutting response times **20%**.
-- Grew backend test coverage past **80%** and mentored three junior engineers through code reviews, design discussions, and structured debugging sessions. Recognized as an **Outstanding Performer**.
-
-<br/>
-
-## Toolkit
+My work includes Kafka workflows processing **500K+ events per day** on a platform handling **10M+ annual transactions**, a **30% reduction in end-to-end latency**, and React/TypeScript dashboards used daily by **150+ operations analysts**.
 
 <table>
 <tr>
-  <td width="150"><b>Languages</b></td>
-  <td>Java · TypeScript · JavaScript · SQL · Rust · Python · C</td>
-</tr>
-<tr>
-  <td><b>Frontend</b></td>
-  <td>React · Next.js · Redux Toolkit · Tailwind CSS · MUI</td>
-</tr>
-<tr>
-  <td><b>Backend</b></td>
-  <td>Spring Boot · Spring Security · Spring Data JPA · Hibernate · Node.js · Express · REST · GraphQL · Kafka · OAuth 2.0 · JWT</td>
-</tr>
-<tr>
-  <td><b>Data</b></td>
-  <td>PostgreSQL · Oracle · MySQL · Redis · SQLite · pgvector</td>
-</tr>
-<tr>
-  <td><b>Cloud &amp; DevOps</b></td>
-  <td>AWS (ECS Fargate, EC2, RDS, S3, IAM, CloudWatch) · Docker · Terraform · GitHub Actions · Jenkins</td>
-</tr>
-<tr>
-  <td><b>Testing</b></td>
-  <td>JUnit 5 · Mockito · Cypress · Jest · SonarQube</td>
-</tr>
-<tr>
-  <td><b>Architecture</b></td>
-  <td>Microservices · Event-driven systems · API design · Idempotent processing · Multi-tenant systems · RAG</td>
+<td width="25%" align="center"><strong>10M+</strong><br/><sub>annual transactions</sub></td>
+<td width="25%" align="center"><strong>500K+</strong><br/><sub>daily Kafka events</sub></td>
+<td width="25%" align="center"><strong>30%</strong><br/><sub>latency reduction</sub></td>
+<td width="25%" align="center"><strong>150+</strong><br/><sub>daily dashboard users</sub></td>
 </tr>
 </table>
 
-<br/>
+<!-- ============================== ABOUT ============================== -->
 
-## Activity
+## About me
+
+```yaml
+role: Full-Stack Software Engineer
+experience: 4+ years
+core_stack:
+  - Java 17
+  - Spring Boot
+  - React
+  - TypeScript
+  - Kafka
+  - AWS
+engineering_focus:
+  - Distributed payment systems
+  - Event-driven workflows
+  - Identity and access management
+  - Full-stack operational tooling
+education: M.S. in Computer Science, University of South Florida
+gpa: 3.96 / 4.00
+mobility: Open to relocation
+```
+
+### Current focus
+
+* Designing **Java 17 and Spring Boot** services for validation, routing, status tracking, and multi-tenant systems.
+* Building **React, TypeScript, and Redux Toolkit** interfaces that turn operational data into usable workflows.
+* Developing **event-driven systems** with idempotent processing, recovery paths, and downstream failure isolation.
+* Applying **AWS, Docker, Terraform, GitHub Actions, and Jenkins** to deployment and delivery workflows.
+
+<!-- =========================== TECHNOLOGY ============================ -->
+
+## Technology stack
 
 <div align="center">
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true&bg_color=0B0E14&title_color=5B8EF6&icon_color=00D4AA&text_color=8892A4&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub stats" />
-&nbsp;
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true&bg_color=0B0E14&title_color=5B8EF6&text_color=8892A4&langs_count=6&cache_seconds=1800" alt="Top languages" />
+### Languages
+
+<img src="https://skillicons.dev/icons?i=java,ts,js,rust,python,c&theme=dark" alt="Java, TypeScript, JavaScript, Rust, Python, and C" />
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,materialui,html,css&theme=dark" alt="React, Next.js, Redux, Tailwind CSS, Material UI, HTML, and CSS" />
+
+### Backend & data
+
+<img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres,mysql,redis,sqlite,kafka&theme=dark" alt="Spring, Node.js, Express, PostgreSQL, MySQL, Redis, SQLite, and Kafka" />
+
+### Cloud, delivery & tooling
+
+<img src="https://skillicons.dev/icons?i=aws,docker,terraform,githubactions,jenkins,git,linux&theme=dark" alt="AWS, Docker, Terraform, GitHub Actions, Jenkins, Git, and Linux" />
 
 </div>
+
+<details>
+<summary><strong>Complete skills matrix</strong></summary>
+<br/>
+
+| Area                | Skills                                                                                                                   |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Languages**       | Java, TypeScript, JavaScript, SQL, Rust, Python, C                                                                       |
+| **Frontend**        | React, Next.js, Redux Toolkit, Tailwind CSS, MUI, HTML, CSS                                                              |
+| **Backend**         | Spring Boot, Spring Security, Spring Data JPA, Hibernate, Node.js, Express.js, REST APIs, GraphQL, Kafka, OAuth 2.0, JWT |
+| **Data**            | PostgreSQL, Oracle, MySQL, Redis, SQLite, pgvector                                                                       |
+| **Cloud & DevOps**  | AWS ECS Fargate, EC2, RDS, S3, IAM, CloudWatch, Docker, Terraform, GitHub Actions, Jenkins, CI/CD                        |
+| **Testing & Tools** | JUnit 5, Mockito, Cypress, Jest, SonarQube, Git, Linux                                                                   |
+| **Architecture**    | Microservices, event-driven systems, API design, idempotent processing, multi-tenant systems, RAG                        |
+
+</details>
+
+<!-- ============================ EXPERIENCE =========================== -->
+
+## Experience highlights
+
+### JPMorgan Chase & Co. — Software Engineer, Full Stack
+
+<sub>Payments Platform · Tampa, Florida · March 2025 – May 2026</sub>
+
+* Developed Java 17 and Spring Boot services for payment validation, routing, and status tracking across a distributed platform handling **10M+ transactions annually**.
+* Migrated synchronous validation flows to Kafka workflows processing **500K+ events daily**, reducing end-to-end latency by **30%**.
+* Built React, TypeScript, and Redux Toolkit investigation dashboards used daily by **150+ operations analysts**.
+* Increased automated test coverage from **65% to 85%+** and enforced SonarQube quality gates in Jenkins and GitHub Actions pipelines.
+* Designed Oracle and PostgreSQL schemas and data-access layers for payment workflows.
+
+### Accenture — Associate Software Engineer
+
+<sub>Chennai, India · October 2021 – July 2024</sub>
+
+* Implemented Okta-based OAuth 2.0/JWT authentication and Spring Security RBAC for applications serving **25K+ users**.
+* Automated user provisioning, role assignment, and access management through Microsoft Graph and Google Workspace APIs.
+* Helped migrate backend services to AWS, contributing to a **15% reduction in production incidents**.
+* Tuned MySQL and PostgreSQL queries, reducing high-volume REST endpoint response times by **20%**.
+* Increased backend test coverage to **80%+** and mentored **three junior engineers**.
+
+<!-- ============================= PROJECTS ============================ -->
+
+## Selected projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Multi-Tenant Knowledge Search Platform
+
+A hybrid retrieval system combining **pgvector HNSW search**, PostgreSQL full-text search, and **Reciprocal Rank Fusion**.
+
+**Highlights**
+
+* Citation-backed answers streamed over Server-Sent Events
+* Keyword-search fallback when the LLM service is unavailable
+* JWT and refresh-token authentication with RBAC
+* Owner-scoped queries, execution tracing, and append-only audit records
+* ECS Fargate, RDS, ElastiCache, ALB, Secrets Manager, Terraform, and GitHub Actions with OIDC
+
+`Java 17` `Spring Boot` `React` `PostgreSQL` `pgvector` `Redis` `AWS` `Docker` `Terraform`
+
+<!-- Add the repository URL only after confirming the exact public repository:
+[View project →](https://github.com/Sriram-Mullapudi/REPOSITORY_NAME)
+-->
+
+</td>
+<td width="50%" valign="top">
+
+### Offline-First Point-of-Sale System
+
+An installable Windows point-of-sale application supporting offline sales, refunds, inventory, promotions, loyalty, and shift reconciliation.
+
+**Highlights**
+
+* Business and authorization rules centralized in the Rust backend
+* Atomic SQLite operations for transaction integrity
+* RBAC and Argon2 PIN hashing
+* Append-only audit logs
+* Duplicate-payment controls
+
+`Rust` `Tauri 2` `SQLite` `React` `TypeScript`
+
+<!-- Add the repository URL only after confirming the exact public repository:
+[View project →](https://github.com/Sriram-Mullapudi/REPOSITORY_NAME)
+-->
+
+</td>
+</tr>
+</table>
+
+<!-- ============================== STATS ============================== -->
+
+## GitHub analytics
+
+<!-- Dynamic cards are best-effort public services. Self-host for maximum reliability. -->
+
+<div align="center">
+
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true&bg_color=0B0E14&title_color=60A5FA&icon_color=2DD4BF&text_color=CBD5E1&ring_color=2563EB&rank_icon=github&include_all_commits=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true&bg_color=FFFFFF&title_color=2563EB&icon_color=0F766E&text_color=334155&ring_color=2563EB&rank_icon=github&include_all_commits=true"
+    media="(prefers-color-scheme: light)"
+  />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true" alt="Sriram Mullapudi's GitHub statistics" />
+</picture>
+
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true&bg_color=0B0E14&title_color=60A5FA&text_color=CBD5E1&langs_count=8"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=2563EB&text_color=334155&langs_count=8"
+    media="(prefers-color-scheme: light)"
+  />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true" alt="Most-used languages across public repositories" />
+</picture>
 
 <br/>
 
----
+<picture>
+  <source
+    srcset="https://streak-stats.demolab.com?user=Sriram-Mullapudi&hide_border=true&background=0B0E14&ring=2563EB&fire=2DD4BF&currStreakLabel=60A5FA&sideLabels=CBD5E1&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://streak-stats.demolab.com?user=Sriram-Mullapudi&hide_border=true&background=FFFFFF&ring=2563EB&fire=0F766E&currStreakLabel=2563EB&sideLabels=334155&currStreakNum=0F172A&sideNums=0F172A&dates=64748B"
+    media="(prefers-color-scheme: light)"
+  />
+  <img width="690" src="https://streak-stats.demolab.com?user=Sriram-Mullapudi&hide_border=true" alt="GitHub contribution streak" />
+</picture>
+
+<br/>
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sriram-Mullapudi&bg_color=0B0E14&color=CBD5E1&line=2563EB&point=2DD4BF&area=true&area_color=1E3A8A&hide_border=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
+
+</div>
+
+<!-- =========================== ACHIEVEMENTS ========================== -->
+
+## Achievements & certification
 
 <div align="center">
-<sub>
 
-**Open to Full-Stack and Backend Software Engineer roles** &nbsp;·&nbsp; Tampa, FL &nbsp;·&nbsp; open to relocation
+<img width="96%" src="https://github-profile-trophy.vercel.app/?username=Sriram-Mullapudi&theme=algolia&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=6" alt="GitHub profile trophies" />
 
-[Email](mailto:srirammullapudi20@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/srirammullapudi) &nbsp;·&nbsp; [GitHub](https://github.com/Sriram-Mullapudi)
-
-</sub>
 </div>
+
+* **AWS Certified Cloud Practitioner** — Amazon Web Services; credential verifiable on Credly.
+* **Outstanding Performer at Accenture** — recognized for team-level initiatives and deliverables.
+* **LeetCode** — **1,436 problems solved** across data structures and algorithms; **global rank 8,791**.
+
+<!-- ============================ EDUCATION ============================ -->
+
+## Education
+
+### University of South Florida
+
+**Master of Science in Computer Science** · **GPA: 3.96 / 4.00**
+
+<!-- ============================== SNAKE ============================== -->
+
+## Contribution journey
+
+<!--
+  Enable the workflow described after this README, confirm that the `output`
+  branch exists, and then remove the opening/closing comment markers around
+  the <picture> block below.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/output/github-snake.svg" />
+  <img width="100%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/output/github-snake.svg" />
+</picture>
+-->
+
+<div align="center">
+<sub>The animated contribution snake will appear here after the included workflow is enabled.</sub>
+</div>
+
+<!-- ============================== CTA ================================ -->
+
+## Let’s connect
+
+<div align="center">
+
+I build full-stack software with **Java, Spring Boot, React, Kafka, and AWS**—with an emphasis on reliability, performance, and usable operational workflows.
+
+<br/>
+
+<a href="mailto:srirammullapudi20@gmail.com">
+  <img src="https://img.shields.io/badge/Start_a_conversation-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Start a conversation by email" />
+</a>
+<a href="https://linkedin.com/in/srirammullapudi">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0B0E14?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="Connect on LinkedIn" />
+</a>
+
+<br/><br/>
+
+**Open to relocation**
+
+</div>
+
+<!-- ============================= FOOTER ============================== -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0B0E14,45:111827,100:2563EB" alt="" />
