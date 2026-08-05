@@ -11,12 +11,12 @@
 
 <!-- ============================== HERO ============================== -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B0E14,45:111827,100:2563EB&text=Sriram%20Mullapudi&fontColor=F8FAFC&fontSize=44&fontAlignY=38&desc=Full-Stack%20Software%20Engineer&descAlignY=59&descSize=19&animation=fadeIn" alt="Sriram Mullapudi — Full-Stack Software Engineer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B0E14,45:111827,100:2563EB&text=Sriram%20Mullapudi&fontColor=F8FAFC&fontSize=44&fontAlignY=38&desc=Full[...]
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&repeat=true&width=780&height=42&lines=Java+%2B+Spring+Boot+services+for+high-volume+systems;React+%2B+TypeScript+applications+for+operational+workflows;Kafka+pipelines+processing+500K%2B+events+per+day;Reliable+software+for+payments%2C+identity%2C+and+data" alt="Animated professional summary" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&repeat=true&width=780&height=42&lines=Java+%2B+Spring+[...]
 </a>
 
 <br/>
@@ -55,7 +55,7 @@
 
 I am a **full-stack software engineer with 4+ years of experience** building **Java and Spring Boot services** and **React applications** for high-volume **payment and identity systems**.
 
-My work includes Kafka workflows processing **500K+ events per day** on a platform handling **10M+ annual transactions**, a **30% reduction in end-to-end latency**, and React/TypeScript dashboards used daily by **150+ operations analysts**.
+My work includes Kafka workflows processing **500K+ events per day** on a platform handling **10M+ annual transactions**, a **30% reduction in end-to-end latency**, and React/TypeScript dashboards[...]
 
 <table>
 <tr>
@@ -216,53 +216,68 @@ An installable Windows point-of-sale application supporting offline sales, refun
 
 ## GitHub analytics
 
-<!-- Dynamic cards are best-effort public services. Self-host for maximum reliability. -->
-
 <div align="center">
 
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true&bg_color=0B0E14&title_color=60A5FA&icon_color=2DD4BF&text_color=CBD5E1&ring_color=2563EB&rank_icon=github&include_all_commits=true"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true&bg_color=FFFFFF&title_color=2563EB&icon_color=0F766E&text_color=334155&ring_color=2563EB&rank_icon=github&include_all_commits=true"
-    media="(prefers-color-scheme: light)"
-  />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sriram-Mullapudi&show_icons=true&hide_border=true" alt="Sriram Mullapudi's GitHub statistics" />
-</picture>
-
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true&bg_color=0B0E14&title_color=60A5FA&text_color=CBD5E1&langs_count=8"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=2563EB&text_color=334155&langs_count=8"
-    media="(prefers-color-scheme: light)"
-  />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sriram-Mullapudi&layout=compact&hide_border=true" alt="Most-used languages across public repositories" />
-</picture>
+<img
+  width="96%"
+  src="./profile-summary-card-output/github_dark/0-profile-details.svg"
+  alt="GitHub profile contribution summary"
+/>
 
 <br/>
 
-<picture>
-  <source
-    srcset="https://streak-stats.demolab.com?user=Sriram-Mullapudi&hide_border=true&background=0B0E14&ring=2563EB&fire=2DD4BF&currStreakLabel=60A5FA&sideLabels=CBD5E1&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://streak-stats.demolab.com?user=Sriram-Mullapudi&hide_border=true&background=FFFFFF&ring=2563EB&fire=0F766E&currStreakLabel=2563EB&sideLabels=334155&currStreakNum=0F172A&sideNums=0F172A&dates=64748B"
-    media="(prefers-color-scheme: light)"
-  />
-  <img width="690" src="https://streak-stats.demolab.com?user=Sriram-Mullapudi&hide_border=true" alt="GitHub contribution streak" />
-</picture>
+<img
+  width="48%"
+  src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
+  alt="Repositories by language"
+/>
+<img
+  width="48%"
+  src="./profile-summary-card-output/github_dark/2-most-commit-language.svg"
+  alt="Most-used commit languages"
+/>
 
 <br/>
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sriram-Mullapudi&bg_color=0B0E14&color=CBD5E1&line=2563EB&point=2DD4BF&area=true&area_color=1E3A8A&hide_border=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
+<img
+  width="48%"
+  src="./profile-summary-card-output/github_dark/3-stats.svg"
+  alt="GitHub repository statistics"
+/>
+<img
+  width="48%"
+  src="./profile-summary-card-output/github_dark/4-productive-time.svg"
+  alt="Contribution activity by time of day"
+/>
+
+<br/>
+
+<img
+  width="96%"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=Sriram-Mullapudi&bg_color=0B0E14&color=CBD5E1&line=2563EB&point=2DD4BF&area=true&area_color=1E3A8A&hide_border=true&custom_title=Contribution%20Activity"
+  alt="GitHub contribution activity graph"
+/>
 
 </div>
+
+Before these local cards can display, your repository must contain this folder after the analytics workflow runs:
+
+profile-summary-card-output/
+└── github_dark/
+    ├── 0-profile-details.svg
+    ├── 1-repos-per-language.svg
+    ├── 2-most-commit-language.svg
+    ├── 3-stats.svg
+    └── 4-productive-time.svg
+
+Check the Code tab of your profile repository. If profile-summary-card-output is not present, the new analytics workflow has not generated or committed the files yet.
+
+Also delete every remaining URL containing either of these domains from README.md:
+
+github-readme-stats.vercel.app
+streak-stats.demolab.com
+
+Your contribution snake workflow is unrelated to these three broken cards and does not need to be changed.
 
 <!-- =========================== ACHIEVEMENTS ========================== -->
 
