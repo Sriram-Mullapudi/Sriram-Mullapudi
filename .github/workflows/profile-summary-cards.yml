@@ -13,10 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
-          USERNAME: Sriram-Mullapudi
+          USERNAME: ${{ github.repository_owner }}
           UTC_OFFSET: -4
+          AUTO_PUSH: true
