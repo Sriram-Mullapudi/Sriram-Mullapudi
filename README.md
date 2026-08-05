@@ -260,7 +260,6 @@ An installable Windows point-of-sale application supporting offline sales, refun
 
 </div>
 
-Before these local cards can display, your repository must contain this folder after the analytics workflow runs:
 
 profile-summary-card-output/
 └── github_dark/
