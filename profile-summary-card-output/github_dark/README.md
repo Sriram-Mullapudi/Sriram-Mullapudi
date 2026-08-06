@@ -1,55 +1,64 @@
-## GitHub analytics
+## github_dark
 
-<div align="center">
+[![](./0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](./1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](./2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](./3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](./4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+### Now you can add this to your markdown
+```
 
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img
-    width="96%"
-    src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/0-profile-details.svg"
-    alt="GitHub profile contribution summary"
-  />
-</a>
+[![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
-<br/><br/>
+```
 
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img
-    width="48%"
-    src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/1-repos-per-language.svg"
-    alt="Repositories by language"
-  />
-</a>
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img
-    width="48%"
-    src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/2-most-commit-language.svg"
-    alt="Most-used commit languages"
-  />
-</a>
+### Each card usage
+---
 
-<br/><br/>
+![](./0-profile-details.svg)
 
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img
-    width="48%"
-    src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/3-stats.svg"
-    alt="GitHub repository statistics"
-  />
-</a>
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img
-    width="48%"
-    src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/4-productive-time.svg"
-    alt="Contribution activity by time of day"
-  />
-</a>
+```
+![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/0-profile-details.svg)
+```
 
-<br/><br/>
+    
 
-<img
-  width="96%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=Sriram-Mullapudi&bg_color=0B0E14&color=CBD5E1&line=2563EB&point=2DD4BF&area=true&area_color=1E3A8A&hide_border=true&custom_title=Contribution%20Activity"
-  alt="GitHub contribution activity graph"
-/>
+---
 
-</div>
+![](./1-repos-per-language.svg)
+
+```
+![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/1-repos-per-language.svg)
+```
+
+    
+
+---
+
+![](./2-most-commit-language.svg)
+
+```
+![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/2-most-commit-language.svg)
+```
+
+    
+
+---
+
+![](./3-stats.svg)
+
+```
+![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/3-stats.svg)
+```
+
+    
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/4-productive-time.svg)
+```
+
+    
