@@ -82,6 +82,8 @@ Developing event-driven systems with idempotent processing, recovery paths, and 
 
 Applying AWS, Docker, Terraform, GitHub Actions, and Jenkins to deployment and delivery workflows.
 
+Currently exploring Full Stack Software Engineer opportunities in the U.S.
+
 Technology stack
 
 <div align="center">
