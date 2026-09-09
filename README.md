@@ -18,6 +18,15 @@ At JPMorgan Chase, my work included:
 - **30% lower end-to-end latency** after migrating synchronous validation flows to Kafka workflows.
 - **150+ operations analysts** using React and TypeScript investigation dashboards daily.
 
+## A trail of small commits
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/output/github-contribution-grid-snake.svg" alt="An animated snake travels across my GitHub contribution calendar, collecting contribution squares." width="100%" />
+</picture>
+
+<sub>My contribution calendar, with a little personality. Updated every 12 hours.</sub>
+
 ## Selected work
 
 ### 01 / Speedway POS
@@ -125,6 +134,12 @@ AWS Certified Cloud Practitioner · Outstanding Performer at Accenture
 </details>
 
 ---
+
+<p align="center">
+  <img src="assets/developer-illustration.png" alt="A playful developer character exploring a glowing holographic globe at a computer." width="260" />
+</p>
+
+<p align="center"><strong>Always exploring. Always building.</strong></p>
 
 **Good systems. Good people.**<br>
 Interested in working together? [Get in touch](mailto:srirammullapudi20@gmail.com) or [explore my portfolio](https://sriram-mullapudi.github.io/portfolio/).
