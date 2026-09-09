@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="276" viewBox="-6 -6 402 276" role="img" aria-labelledby="title desc">
+<title id="title">Interfaces</title><desc id="desc">React · TypeScript. Redux Toolkit · Next.js. Tailwind CSS · MUI · HTML · CSS. Operational dashboards used by 150+ analysts daily.</desc>
+<rect x=".5" y=".5" width="389" height="263" rx="12" fill="#10151d" stroke="#34313b"/>
+<path d="M22 1h60" stroke="#e98b93" stroke-width="2"/>
+<g transform="translate(316 19) scale(.72)" fill="none" stroke="#e98b93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 8h44v30H10zM10 17h44M17 26h15"/></g>
+<text x="22" y="34" fill="#e98b93" font-family="monospace" font-size="12" letter-spacing="2">02 / ENGINEERING</text>
+<text x="22" y="68" fill="#f0eeea" font-family="Arial,sans-serif" font-size="25" font-weight="700">Interfaces</text>
+<text x="22" y="103" fill="#f1bbc2" font-family="Arial,sans-serif" font-size="19" font-weight="600">React · TypeScript</text>
+<text x="22" y="132" fill="#b7bfc9" font-family="Arial,sans-serif" font-size="14">Redux Toolkit · Next.js</text>
+<text x="22" y="155" fill="#b7bfc9" font-family="Arial,sans-serif" font-size="14">Tailwind CSS · MUI · HTML · CSS</text>
+<path d="M22 177h346" stroke="#34313b"/>
+<text x="22" y="205" fill="#d9dde3" font-family="Arial,sans-serif" font-size="16">Operational dashboards used</text>
+<text x="22" y="230" fill="#d9dde3" font-family="Arial,sans-serif" font-size="16">by 150+ analysts daily.</text>
+<text x="360" y="235" fill="#e98b93" font-family="Arial,sans-serif" font-size="20">↗</text>
+</svg>

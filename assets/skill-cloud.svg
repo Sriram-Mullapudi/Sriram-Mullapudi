@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="276" viewBox="-6 -6 402 276" role="img" aria-labelledby="title desc">
+<title id="title">Cloud &amp; delivery</title><desc id="desc">AWS · Terraform. Docker · GitHub Actions · Jenkins. ECS · EC2 · RDS · S3 · IAM · CloudWatch. Infrastructure and deployment for Knowledge Search.</desc>
+<rect x=".5" y=".5" width="389" height="263" rx="12" fill="#10151d" stroke="#34313b"/>
+<path d="M22 1h60" stroke="#e98b93" stroke-width="2"/>
+<g transform="translate(316 19) scale(.72)" fill="none" stroke="#e98b93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 35h33c15 0 17-22 2-25-6-17-29-15-33 1C0 11 0 35 14 35"/></g>
+<text x="22" y="34" fill="#e98b93" font-family="monospace" font-size="12" letter-spacing="2">04 / ENGINEERING</text>
+<text x="22" y="68" fill="#f0eeea" font-family="Arial,sans-serif" font-size="25" font-weight="700">Cloud &amp; delivery</text>
+<text x="22" y="103" fill="#f1bbc2" font-family="Arial,sans-serif" font-size="19" font-weight="600">AWS · Terraform</text>
+<text x="22" y="132" fill="#b7bfc9" font-family="Arial,sans-serif" font-size="14">Docker · GitHub Actions · Jenkins</text>
+<text x="22" y="155" fill="#b7bfc9" font-family="Arial,sans-serif" font-size="14">ECS · EC2 · RDS · S3 · IAM · CloudWatch</text>
+<path d="M22 177h346" stroke="#34313b"/>
+<text x="22" y="205" fill="#d9dde3" font-family="Arial,sans-serif" font-size="16">Infrastructure and deployment</text>
+<text x="22" y="230" fill="#d9dde3" font-family="Arial,sans-serif" font-size="16">for Knowledge Search.</text>
+<text x="360" y="235" fill="#e98b93" font-family="Arial,sans-serif" font-size="20">↗</text>
+</svg>

@@ -59,9 +59,23 @@ A hybrid retrieval system combining pgvector HNSW and PostgreSQL full-text searc
 - [**Xv6 systems work**](https://github.com/Sriram-Mullapudi/OS_Project-2-Syscalls-and-Schedulers) — custom system calls, scheduling, and command-line utilities.
 - [**Portfolio source**](https://github.com/Sriram-Mullapudi/portfolio) — engineering case studies, interactive architecture walkthroughs, and photography.
 
-## Across the stack
+## Engineering toolkit
 
-![From interface to infrastructure: interface, services, data, and cloud.](assets/engineering-stack.svg)
+**Core stack:** `Java` · `Spring Boot` · `React` · `TypeScript` · `Kafka` · `AWS`
+
+Six areas of practice. Select a panel to explore the related work.
+
+<p>
+<a href="https://sriram-mullapudi.github.io/portfolio/#work"><img src="assets/skill-backend.svg" width="390" alt="Services &amp; APIs — Java 17 · Spring Boot. Payment validation and routing at JPMorgan Chase." /></a>
+<a href="https://sriram-mullapudi.github.io/portfolio/#work"><img src="assets/skill-frontend.svg" width="390" alt="Interfaces — React · TypeScript. Operational dashboards used by 150+ analysts daily." /></a>
+<a href="https://sriram-mullapudi.github.io/portfolio/#knowledge-search"><img src="assets/skill-data.svg" width="390" alt="Data &amp; retrieval — Kafka · PostgreSQL. Hybrid search across 30K documents in Knowledge Search." /></a>
+<a href="https://sriram-mullapudi.github.io/portfolio/#knowledge-search"><img src="assets/skill-cloud.svg" width="390" alt="Cloud &amp; delivery — AWS · Terraform. Infrastructure and deployment for Knowledge Search." /></a>
+<a href="https://sriram-mullapudi.github.io/portfolio/#work"><img src="assets/skill-quality.svg" width="390" alt="Quality &amp; access — Testing · Authorization. Identity and access management for 25K+ users at Accenture." /></a>
+<a href="https://sriram-mullapudi.github.io/portfolio/#speedway-pos"><img src="assets/skill-systems.svg" width="390" alt="Systems &amp; desktop — Rust · Tauri 2 · SQLite. Offline-first retail workflows and transaction integrity in POS." /></a>
+</p>
+
+<details>
+<summary><strong>Explore the complete technical skill set</strong></summary>
 
 ### Languages
 
@@ -90,18 +104,6 @@ A hybrid retrieval system combining pgvector HNSW and PostgreSQL full-text searc
 ### Systems & architecture
 
 `Microservices` `Event-driven systems` `API design` `Idempotent processing` `Multi-tenant systems` `RAG` `Hybrid retrieval`
-
-<details>
-<summary><strong>Connect the tools to the engineering →</strong></summary>
-
-| Tools | Where they come together |
-| :--- | :--- |
-| Java + Spring Boot + Kafka | Payment validation, routing, and event-driven workflows at JPMorgan Chase. |
-| React + TypeScript + Redux Toolkit | Investigation dashboards used by operations analysts. |
-| Rust + Tauri + SQLite | An offline-first POS with backend-enforced rules and atomic transactions. |
-| PostgreSQL + pgvector | Full-text and vector retrieval combined through Reciprocal Rank Fusion. |
-| AWS + Terraform + GitHub Actions | Infrastructure provisioning and deployment for Knowledge Search. |
-| Spring Security + OAuth 2.0 + RBAC | Identity and access management at Accenture. |
 
 </details>
 
@@ -155,10 +157,6 @@ AWS Certified Cloud Practitioner · Outstanding Performer at Accenture
 </details>
 
 ---
-
-<p align="center">
-  <img src="assets/developer-illustration.png" alt="A playful developer character exploring a glowing holographic globe at a computer." width="260" />
-</p>
 
 <p align="center"><strong>Always exploring. Always building.</strong></p>
 

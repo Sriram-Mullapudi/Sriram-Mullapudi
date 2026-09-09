@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="276" viewBox="-6 -6 402 276" role="img" aria-labelledby="title desc">
+<title id="title">Quality &amp; access</title><desc id="desc">Testing · Authorization. JUnit 5 · Mockito · Cypress · Jest. SonarQube · OAuth 2.0 · JWT · RBAC. Identity and access management for 25K+ users at Accenture.</desc>
+<rect x=".5" y=".5" width="389" height="263" rx="12" fill="#10151d" stroke="#34313b"/>
+<path d="M22 1h60" stroke="#e98b93" stroke-width="2"/>
+<g transform="translate(316 19) scale(.72)" fill="none" stroke="#e98b93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 5L12 13v14c0 12 20 18 20 18s20-6 20-18V13zM22 25l7 7 13-15"/></g>
+<text x="22" y="34" fill="#e98b93" font-family="monospace" font-size="12" letter-spacing="2">05 / ENGINEERING</text>
+<text x="22" y="68" fill="#f0eeea" font-family="Arial,sans-serif" font-size="25" font-weight="700">Quality &amp; access</text>
+<text x="22" y="103" fill="#f1bbc2" font-family="Arial,sans-serif" font-size="19" font-weight="600">Testing · Authorization</text>
+<text x="22" y="132" fill="#b7bfc9" font-family="Arial,sans-serif" font-size="14">JUnit 5 · Mockito · Cypress · Jest</text>
+<text x="22" y="155" fill="#b7bfc9" font-family="Arial,sans-serif" font-size="14">SonarQube · OAuth 2.0 · JWT · RBAC</text>
+<path d="M22 177h346" stroke="#34313b"/>
+<text x="22" y="205" fill="#d9dde3" font-family="Arial,sans-serif" font-size="16">Identity and access management</text>
+<text x="22" y="230" fill="#d9dde3" font-family="Arial,sans-serif" font-size="16">for 25K+ users at Accenture.</text>
+<text x="360" y="235" fill="#e98b93" font-family="Arial,sans-serif" font-size="20">↗</text>
+</svg>
