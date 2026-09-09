@@ -1,285 +1,130 @@
-<!--
-  GitHub Profile README
-  Repository: Sriram-Mullapudi/Sriram-Mullapudi
+![Engineering across the full stack. I build systems that hold up.](assets/engineering-banner.svg)
 
-  Optional:
-  - Add your exact LeetCode URL when confirmed.
-  - Add your public Credly credential URL when confirmed.
--->
+# Sriram Mullapudi
 
+**Full-Stack Software Engineer · Java / Spring Boot / React / Kafka / AWS**
 
+I build payment services, operational interfaces, and data systems with a focus on reliability and performance. My 4+ years of experience span distributed payments at JPMorgan Chase and identity and access management at Accenture.
 
-<div align="center">
+[**Explore my portfolio ↗**](https://sriram-mullapudi.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/srirammullapudi/) · [Email](mailto:srirammullapudi20@gmail.com)
 
-<img
-src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&repeat=true&width=780&height=42&lines=Java+%2B+Spring+Boot+services+for+high-volume+systems;React+%2B+TypeScript+applications+for+operational+workflows;Kafka+pipelines+processing+500K%2B+events+per+day;Reliable+software+for+payments%2C+identity%2C+and+data"
-alt="Animated professional summary"
-/>
+Open to full-stack and backend opportunities in the U.S. · Open to relocation
 
-<br/>
+## Engineering in practice
 
-<a href="mailto:srirammullapudi20@gmail.com">
-  <img src="https://img.shields.io/badge/Email-0B0E14?style=for-the-badge&logo=gmail&logoColor=60A5FA" alt="Email" />
-</a>
-<a href="https://linkedin.com/in/srirammullapudi">
-  <img src="https://img.shields.io/badge/LinkedIn-0B0E14?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="LinkedIn" />
-</a>
-<a href="https://github.com/Sriram-Mullapudi">
-  <img src="https://img.shields.io/badge/GitHub-0B0E14?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub" />
-</a>
+At JPMorgan Chase, my work included:
 
-<br/><br/>
+- **500K+ daily Kafka events** on a platform handling **10M+ annual transactions**.
+- **30% lower end-to-end latency** after migrating synchronous validation flows to Kafka workflows.
+- **150+ operations analysts** using React and TypeScript investigation dashboards daily.
 
-<img
-src="https://komarev.com/ghpvc/?username=Sriram-Mullapudi&style=flat-square&color=2563EB&label=PROFILE+VIEWS"
-alt="Profile views"
-/>
+## Selected work
 
-</div>
+### 01 / Speedway POS
 
-Engineering reliable systems at scale
+An offline-first Windows point-of-sale application for sales, refunds, inventory, promotions, loyalty, and shift reconciliation.
 
-I am a full-stack software engineer with 4+ years of experience building Java and Spring Boot services and React applications for high-volume payment and identity systems.
+- **Built for transaction integrity:** atomic SQLite operations, duplicate-payment controls, and append-only audit logs.
+- **Backend-enforced rules:** pricing, promotions, loyalty, RBAC, and Argon2 PIN hashing in Rust.
+- **Validated separately:** 5K+ real-world sales; 10K+ integrity-test attempts across 20+ failure/concurrency scenarios, with zero duplicate charges in those tests.
 
-My work includes Kafka workflows processing 500K+ events per day on a platform handling 10M+ annual transactions, a 30% reduction in end-to-end latency, and React/TypeScript dashboards used daily by 150+ operations analysts.
+`Rust` `Tauri 2` `SQLite` `React` `TypeScript`
 
-<table>
-<tr>
-<td width="25%" align="center"><strong>10M+</strong><br/><sub>annual transactions</sub></td>
-<td width="25%" align="center"><strong>500K+</strong><br/><sub>daily Kafka events</sub></td>
-<td width="25%" align="center"><strong>30%</strong><br/><sub>latency reduction</sub></td>
-<td width="25%" align="center"><strong>150+</strong><br/><sub>daily dashboard users</sub></td>
-</tr>
-</table>
+[**Browse the code ↗**](https://github.com/Sriram-Mullapudi/speedway-pos) · [Read the case study](https://sriram-mullapudi.github.io/portfolio/#speedway-pos)
 
-About me
+### 02 / Multi-Tenant Knowledge Search
 
-role: Full-Stack Software Engineer
-experience: 4+ years
-core_stack:
-  - Java 17
-  - Spring Boot
-  - React
-  - TypeScript
-  - Kafka
-  - AWS
-engineering_focus:
-  - Distributed payment systems
-  - Event-driven workflows
-  - Identity and access management
-  - Full-stack operational tooling
-education: M.S. in Computer Science, University of South Florida
-gpa: 3.96 / 4.00
-mobility: Open to relocation
+A hybrid retrieval system combining pgvector HNSW and PostgreSQL full-text search with Reciprocal Rank Fusion.
 
-Current focus
+- **Retrieval at scale:** 30K documents; ~1 s p95 retrieval latency.
+- **Measured answer quality:** 92% Recall@10 and an 83% acceptable-answer rate on ~200 labelled queries.
+- **Tenant-aware delivery:** isolation at API and data-access layers, citation-backed answers over SSE, and keyword fallback when the LLM service is unavailable.
 
-Designing Java 17 and Spring Boot services for validation, routing, status tracking, and multi-tenant systems.
+`Java 17` `Spring Boot` `React` `PostgreSQL` `pgvector` `Redis` `AWS` `Terraform`
 
-Building React, TypeScript, and Redux Toolkit interfaces for operational workflows.
+[**Read the architecture and evaluation ↗**](https://sriram-mullapudi.github.io/portfolio/#knowledge-search)
 
-Developing event-driven systems with idempotent processing, recovery paths, and downstream failure isolation.
+### More to explore
 
-Applying AWS, Docker, Terraform, GitHub Actions, and Jenkins to deployment and delivery workflows.
+- [**Cargo Booker Pro**](https://github.com/Sriram-Mullapudi/Cargo-Booker-Pro) — Django logistics application for shipment booking, tracking, and invoices.
+- [**Xv6 systems work**](https://github.com/Sriram-Mullapudi/OS_Project-2-Syscalls-and-Schedulers) — custom system calls, scheduling, and command-line utilities.
+- [**Portfolio source**](https://github.com/Sriram-Mullapudi/portfolio) — engineering case studies, interactive architecture walkthroughs, and photography.
 
-Currently exploring Full Stack Software Engineer opportunities in the U.S.
+## Tools I work with
 
-Technology stack
-
-<div align="center">
-
-Languages
-
-<img src="https://skillicons.dev/icons?i=java,ts,js,rust,python,c&theme=dark" alt="Java, TypeScript, JavaScript, Rust, Python, and C" />
-
-Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,materialui,html,css&theme=dark" alt="React, Next.js, Redux, Tailwind CSS, Material UI, HTML, and CSS" />
-
-Backend and data
-
-<img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres,mysql,redis,sqlite,kafka&theme=dark" alt="Spring, Node.js, Express, PostgreSQL, MySQL, Redis, SQLite, and Kafka" />
-
-Cloud, delivery and tooling
-
-<img src="https://skillicons.dev/icons?i=aws,docker,terraform,githubactions,jenkins,git,linux&theme=dark" alt="AWS, Docker, Terraform, GitHub Actions, Jenkins, Git, and Linux" />
-
-</div>
+| Layer | Core tools |
+| :--- | :--- |
+| Backend | Java 17, Spring Boot, Spring Security, Rust, REST APIs |
+| Frontend | React, TypeScript, Redux Toolkit |
+| Data & messaging | Kafka, PostgreSQL, pgvector, Redis, SQLite |
+| Cloud & delivery | AWS, Docker, Terraform, GitHub Actions, Jenkins |
+| Quality & security | JUnit 5, Mockito, Cypress, OAuth 2.0, RBAC |
 
 <details>
-<summary><strong>Complete skills matrix</strong></summary>
+<summary><strong>Full skills matrix</strong></summary>
 
-<br/>
-
-Area
-
-Skills
-
-Languages
-
-Java, TypeScript, JavaScript, SQL, Rust, Python, C
-
-Frontend
-
-React, Next.js, Redux Toolkit, Tailwind CSS, MUI, HTML, CSS
-
-Backend
-
-Spring Boot, Spring Security, Spring Data JPA, Hibernate, Node.js, Express.js, REST APIs, GraphQL, Kafka, OAuth 2.0, JWT
-
-Data
-
-PostgreSQL, Oracle, MySQL, Redis, SQLite, pgvector
-
-Cloud and DevOps
-
-AWS ECS Fargate, EC2, RDS, S3, IAM, CloudWatch, Docker, Terraform, GitHub Actions, Jenkins, CI/CD
-
-Testing and tools
-
-JUnit 5, Mockito, Cypress, Jest, SonarQube, Git, Linux
-
-Architecture
-
-Microservices, event-driven systems, API design, idempotent processing, multi-tenant systems, RAG
+| Area | Skills |
+| :--- | :--- |
+| Languages | Java, TypeScript, JavaScript, SQL, Rust, Python, C |
+| Frontend | React, Next.js, Redux Toolkit, Tailwind CSS, MUI, HTML, CSS |
+| Backend | Spring Boot, Spring Security, Spring Data JPA, Hibernate, Node.js, Express.js, REST APIs, GraphQL, Kafka, OAuth 2.0, JWT |
+| Data | PostgreSQL, Oracle, MySQL, Redis, SQLite, pgvector |
+| Cloud & DevOps | AWS ECS Fargate, EC2, RDS, S3, IAM, CloudWatch, Docker, Terraform, GitHub Actions, Jenkins, CI/CD |
+| Testing & tools | JUnit 5, Mockito, Cypress, Jest, SonarQube, Git, Linux |
+| Architecture | Microservices, event-driven systems, API design, idempotent processing, multi-tenant systems, RAG |
 
 </details>
 
-Experience highlights
+## Experience
 
-JPMorgan Chase & Co. — Software Engineer, Full Stack
+**JPMorgan Chase & Co. — Software Engineer, Full Stack**<br>
+Payments Platform · Tampa, Florida · March 2025 – May 2026
 
-<sub>Payments Platform · Tampa, Florida · March 2025 – May 2026</sub>
+Java and Spring Boot payment services, Kafka workflows, React operational dashboards, and automated quality gates.
 
-Developed Java 17 and Spring Boot services for payment validation, routing, and status tracking across a distributed platform handling 10M+ transactions annually.
+**Accenture — Associate Software Engineer**<br>
+Chennai, India · October 2021 – July 2024
 
-Migrated synchronous validation flows to Kafka workflows processing 500K+ events daily, reducing end-to-end latency by 30%.
+Identity and access management for applications serving 25K+ users, AWS migration, and REST endpoint performance improvements.
 
-Built React, TypeScript, and Redux Toolkit investigation dashboards used daily by 150+ operations analysts.
+<details>
+<summary><strong>More about my contributions</strong></summary>
 
-Increased automated test coverage from 65% to 85%+ and enforced SonarQube quality gates in Jenkins and GitHub Actions pipelines.
+### JPMorgan Chase & Co.
 
-Designed Oracle and PostgreSQL schemas and data-access layers for payment workflows.
+- Developed Java 17 and Spring Boot services for payment validation, routing, and status tracking across a distributed platform handling 10M+ transactions annually.
+- Migrated synchronous validation flows to Kafka workflows processing 500K+ events daily, reducing end-to-end latency by 30%.
+- Built React, TypeScript, and Redux Toolkit investigation dashboards used daily by 150+ operations analysts.
+- Increased automated test coverage from 65% to 85%+ and enforced SonarQube quality gates in Jenkins and GitHub Actions pipelines.
+- Designed Oracle and PostgreSQL schemas and data-access layers for payment workflows.
 
-Accenture — Associate Software Engineer
+### Accenture
 
-<sub>Chennai, India · October 2021 – July 2024</sub>
+- Implemented Okta-based OAuth 2.0/JWT authentication and Spring Security RBAC for applications serving 25K+ users.
+- Automated user provisioning, role assignment, and access management through Microsoft Graph and Google Workspace APIs.
+- Containerized and migrated backend services to AWS, contributing to a 15% reduction in production incidents.
+- Tuned MySQL and PostgreSQL queries, reducing high-volume REST endpoint response times by 20%.
+- Increased backend test coverage to 80%+ and mentored three junior engineers.
 
-Implemented Okta-based OAuth 2.0/JWT authentication and Spring Security RBAC for applications serving 25K+ users.
+</details>
 
-Automated user provisioning, role assignment, and access management through Microsoft Graph and Google Workspace APIs.
+## Education & recognition
 
-Containerized and migrated backend services to AWS, contributing to a 15% reduction in production incidents.
+**M.S. in Computer Science · University of South Florida** — GPA: 3.96 / 4.00
 
-Tuned MySQL and PostgreSQL queries, reducing high-volume REST endpoint response times by 20%.
+AWS Certified Cloud Practitioner · Outstanding Performer at Accenture
 
-Increased backend test coverage to 80%+ and mentored three junior engineers.
+<details>
+<summary><strong>GitHub activity</strong></summary>
 
-Selected projects
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <img src="profile-summary-card-output/github/0-profile-details.svg" alt="GitHub contribution activity summary" width="100%" />
+</picture>
 
-Multi-Tenant Knowledge Search Platform
+</details>
 
-A hybrid retrieval system combining pgvector HNSW search, PostgreSQL full-text search, and Reciprocal Rank Fusion.
+---
 
-Streams citation-backed answers over Server-Sent Events.
-
-Falls back to keyword search when the LLM service is unavailable.
-
-Enforces tenant isolation using JWT and refresh-token authentication, RBAC, owner-scoped queries, execution tracing, and append-only audit records.
-
-Provisions ECS Fargate, RDS, ElastiCache, ALB, and Secrets Manager with Terraform and deploys through GitHub Actions using OIDC.
-
-Java 17 Spring Boot React PostgreSQL pgvector Redis AWS Docker Terraform
-
-Offline-First Point-of-Sale System
-
-An installable Windows point-of-sale application supporting offline sales, refunds, inventory, promotions, loyalty, and shift reconciliation.
-
-Centralizes pricing, promotion, loyalty, and authorization rules in the Rust backend.
-
-Protects transaction integrity using atomic SQLite operations.
-
-Uses RBAC, Argon2 PIN hashing, append-only audit logs, and duplicate-payment controls.
-
-Rust Tauri 2 SQLite React TypeScript
-
-GitHub analytics
-
-<div align="center">
-
-<img
-width="96%"
-src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/0-profile-details.svg"
-alt="GitHub profile contribution summary"
-/>
-
-<br/><br/>
-
-<img
-width="48%"
-src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/1-repos-per-language.svg"
-alt="Repositories by language"
-/><img
-width="48%"
-src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/2-most-commit-language.svg"
-alt="Most-used commit languages"
-/>
-
-<br/><br/>
-
-<img
-width="48%"
-src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/3-stats.svg"
-alt="GitHub repository statistics"
-/><img
-width="48%"
-src="https://raw.githubusercontent.com/Sriram-Mullapudi/Sriram-Mullapudi/main/profile-summary-card-output/github_dark/4-productive-time.svg"
-alt="Contribution activity by time of day"
-/>
-
-<br/><br/>
-
-<img
-width="96%"
-src="https://github-readme-activity-graph.vercel.app/graph?username=Sriram-Mullapudi&bg_color=0B0E14&color=CBD5E1&line=2563EB&point=2DD4BF&area=true&area_color=1E3A8A&hide_border=true&custom_title=Contribution%20Activity"
-alt="GitHub contribution activity graph"
-/>
-
-</div>
-
-Achievements and certification
-
-AWS Certified Cloud Practitioner — Amazon Web Services; credential verifiable on Credly.
-
-Outstanding Performer at Accenture — recognized for team-level initiatives and deliverables.
-
-LeetCode — 1,436 problems solved across data structures and algorithms; global rank 8,791.
-
-Education
-
-University of South Florida
-
-Master of Science in Computer Science · GPA: 3.96 / 4.00
-
-Let’s connect
-
-<div align="center">
-
-I build full-stack software with Java, Spring Boot, React, Kafka, and AWS, with an emphasis on reliability, performance, and usable operational workflows.
-
-<br/>
-
-<a href="mailto:srirammullapudi20@gmail.com">
-  <img src="https://img.shields.io/badge/Start_a_conversation-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Start a conversation by email" />
-</a>
-<a href="https://linkedin.com/in/srirammullapudi">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0B0E14?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="Connect on LinkedIn" />
-</a>
-
-<br/><br/>
-
-Open to relocation
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0B0E14,45:111827,100:2563EB" alt="" />
+**Good systems. Good people.**<br>
+Interested in working together? [Get in touch](mailto:srirammullapudi20@gmail.com) or [explore my portfolio](https://sriram-mullapudi.github.io/portfolio/).
