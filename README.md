@@ -59,28 +59,49 @@ A hybrid retrieval system combining pgvector HNSW and PostgreSQL full-text searc
 - [**Xv6 systems work**](https://github.com/Sriram-Mullapudi/OS_Project-2-Syscalls-and-Schedulers) — custom system calls, scheduling, and command-line utilities.
 - [**Portfolio source**](https://github.com/Sriram-Mullapudi/portfolio) — engineering case studies, interactive architecture walkthroughs, and photography.
 
-## Tools I work with
+## Across the stack
 
-| Layer | Core tools |
-| :--- | :--- |
-| Backend | Java 17, Spring Boot, Spring Security, Rust, REST APIs |
-| Frontend | React, TypeScript, Redux Toolkit |
-| Data & messaging | Kafka, PostgreSQL, pgvector, Redis, SQLite |
-| Cloud & delivery | AWS, Docker, Terraform, GitHub Actions, Jenkins |
-| Quality & security | JUnit 5, Mockito, Cypress, OAuth 2.0, RBAC |
+![From interface to infrastructure: interface, services, data, and cloud.](assets/engineering-stack.svg)
+
+### Languages
+
+`Java` `TypeScript` `JavaScript` `SQL` `Rust` `Python` `C`
+
+### Interfaces & applications
+
+`React` `Next.js` `Redux Toolkit` `Tailwind CSS` `MUI` `HTML` `CSS` `Tauri 2`
+
+### Services & APIs
+
+`Spring Boot` `Spring Security` `Spring Data JPA` `Hibernate` `Node.js` `Express.js` `REST APIs` `GraphQL`
+
+### Data & messaging
+
+`PostgreSQL` `Oracle` `MySQL` `Redis` `SQLite` `pgvector` `Kafka`
+
+### Cloud & delivery
+
+`AWS ECS Fargate` `EC2` `RDS` `S3` `IAM` `CloudWatch` `Docker` `Terraform` `GitHub Actions` `Jenkins` `CI/CD`
+
+### Testing, security & tooling
+
+`JUnit 5` `Mockito` `Cypress` `Jest` `SonarQube` `OAuth 2.0` `JWT` `RBAC` `Argon2` `Git` `Linux`
+
+### Systems & architecture
+
+`Microservices` `Event-driven systems` `API design` `Idempotent processing` `Multi-tenant systems` `RAG` `Hybrid retrieval`
 
 <details>
-<summary><strong>Full skills matrix</strong></summary>
+<summary><strong>Connect the tools to the engineering →</strong></summary>
 
-| Area | Skills |
+| Tools | Where they come together |
 | :--- | :--- |
-| Languages | Java, TypeScript, JavaScript, SQL, Rust, Python, C |
-| Frontend | React, Next.js, Redux Toolkit, Tailwind CSS, MUI, HTML, CSS |
-| Backend | Spring Boot, Spring Security, Spring Data JPA, Hibernate, Node.js, Express.js, REST APIs, GraphQL, Kafka, OAuth 2.0, JWT |
-| Data | PostgreSQL, Oracle, MySQL, Redis, SQLite, pgvector |
-| Cloud & DevOps | AWS ECS Fargate, EC2, RDS, S3, IAM, CloudWatch, Docker, Terraform, GitHub Actions, Jenkins, CI/CD |
-| Testing & tools | JUnit 5, Mockito, Cypress, Jest, SonarQube, Git, Linux |
-| Architecture | Microservices, event-driven systems, API design, idempotent processing, multi-tenant systems, RAG |
+| Java + Spring Boot + Kafka | Payment validation, routing, and event-driven workflows at JPMorgan Chase. |
+| React + TypeScript + Redux Toolkit | Investigation dashboards used by operations analysts. |
+| Rust + Tauri + SQLite | An offline-first POS with backend-enforced rules and atomic transactions. |
+| PostgreSQL + pgvector | Full-text and vector retrieval combined through Reciprocal Rank Fusion. |
+| AWS + Terraform + GitHub Actions | Infrastructure provisioning and deployment for Knowledge Search. |
+| Spring Security + OAuth 2.0 + RBAC | Identity and access management at Accenture. |
 
 </details>
 
