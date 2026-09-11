@@ -48,3 +48,9 @@ logs and secret configuration without copying the secret into a file or issue.
 - Confirm that metrics, employment dates, and contact details are accurate.
 - Commit on `main` and push normally; do not force-push profile history.
 - Open the public profile to confirm the new README and assets are visible.
+
+## Cross-platform editing
+
+`.gitattributes` keeps Markdown, SVG, and workflow files on LF line endings across
+Windows and Linux, while preserving raster images as binary files. This avoids
+line-ending-only diffs when editing locally or regenerating assets in Actions.
