@@ -54,3 +54,7 @@ logs and secret configuration without copying the secret into a file or issue.
 `.gitattributes` keeps Markdown, SVG, and workflow files on LF line endings across
 Windows and Linux, while preserving raster images as binary files. This avoids
 line-ending-only diffs when editing locally or regenerating assets in Actions.
+
+EditorConfig-aware editors also use `.editorconfig` for UTF-8, LF line endings,
+final newlines, and two-space YAML/SVG indentation. Markdown trailing spaces are
+preserved because they can represent intentional line breaks.

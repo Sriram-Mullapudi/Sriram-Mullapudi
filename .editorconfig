@@ -1,0 +1,16 @@
+# Match repository line endings and keep source edits consistent.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{yml,yaml,svg}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+# Two trailing spaces can represent an intentional Markdown line break.
+trim_trailing_whitespace = false
