@@ -1,0 +1,11 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python bytecode from local maintenance helpers
+__pycache__/
+*.py[cod]
+
+# Local preview output; published profile assets remain tracked.
+.preview/

@@ -58,3 +58,10 @@ line-ending-only diffs when editing locally or regenerating assets in Actions.
 EditorConfig-aware editors also use `.editorconfig` for UTF-8, LF line endings,
 final newlines, and two-space YAML/SVG indentation. Markdown trailing spaces are
 preserved because they can represent intentional line breaks.
+
+## Local preview files
+
+Use `.preview/` for temporary screenshots or rendered README previews. It is
+ignored along with operating-system metadata and Python bytecode caches.
+Keep published images in `assets/`; generated activity cards remain tracked in
+`profile-summary-card-output/`.
