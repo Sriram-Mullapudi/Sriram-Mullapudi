@@ -65,3 +65,13 @@ Use `.preview/` for temporary screenshots or rendered README previews. It is
 ignored along with operating-system metadata and Python bytecode caches.
 Keep published images in `assets/`; generated activity cards remain tracked in
 `profile-summary-card-output/`.
+
+## Check profile assets locally
+
+Run `python scripts/check_profile.py` from the repository root with Python 3.9+
+before publishing image changes. The check reports missing local README images,
+paths outside the repository, and malformed SVGs in `assets/`. It exits with a
+nonzero status when a problem is found and requires no third-party packages.
+
+This is an offline asset check, not a visual preview or an external-link check.
+Continue to inspect the rendered profile on desktop and mobile.
