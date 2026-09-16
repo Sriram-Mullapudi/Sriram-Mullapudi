@@ -75,3 +75,6 @@ nonzero status when a problem is found and requires no third-party packages.
 
 This is an offline asset check, not a visual preview or an external-link check.
 Continue to inspect the rendered profile on desktop and mobile.
+
+The asset check includes SVGs in nested `assets/` folders. Run its regression
+checks with `python -m unittest discover -s tests` before modifying the checker.
