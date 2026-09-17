@@ -37,7 +37,11 @@ def main():
     checked = set()
     # Preserve source order while reporting each repeated reference only once.
     for reference in dict.fromkeys(paths):
-        url = urlsplit(reference)
+        try:
+            url = urlsplit(reference)
+        except ValueError as error:
+            errors.append(f"Invalid image URL {reference}: {error}")
+            continue
         if url.scheme or url.netloc or not url.path:
             continue
         path = (ROOT / unquote(url.path)).resolve()

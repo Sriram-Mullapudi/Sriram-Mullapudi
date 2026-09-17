@@ -77,5 +77,28 @@ class RepeatedImageTests(unittest.TestCase):
             ])
 
 
+class ImageSyntaxTests(unittest.TestCase):
+    def run_readme(self, readme, files=None):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "README.md").write_text(readme, encoding="utf-8")
+            for name, content in (files or {}).items():
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(content, encoding="utf-8")
+            output, errors = StringIO(), StringIO()
+            with patch.object(checker, "ROOT", root), redirect_stdout(output), redirect_stderr(errors):
+                result = checker.main()
+            return result, output.getvalue(), errors.getvalue()
+
+    def test_invalid_url_does_not_stop_remaining_checks(self):
+        result, _, errors = self.run_readme(
+            '<img src="https://[broken/image.png"><img src="assets/missing.png">'
+        )
+        self.assertEqual(result, 1)
+        self.assertIn("Invalid image URL", errors)
+        self.assertIn("Missing image: assets/missing.png", errors)
+
+
 if __name__ == "__main__":
     unittest.main()
