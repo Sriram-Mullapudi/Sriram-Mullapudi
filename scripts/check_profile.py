@@ -32,7 +32,10 @@ def main():
         return 1
     parser = ImageReferences()
     parser.feed(readme)
-    paths = parser.paths + re.findall(r"!\[[^\]]*\]\(([^\s)]+)\)", readme)
+    markdown_paths = re.findall(
+        r'!\[[^\]]*\]\(\s*(?:<([^>]+)>|([^\s)]+))(?:\s+"[^"\n]*")?\s*\)', readme
+    )
+    paths = parser.paths + [angled or plain for angled, plain in markdown_paths]
     errors = []
     checked = set()
     # Preserve source order while reporting each repeated reference only once.

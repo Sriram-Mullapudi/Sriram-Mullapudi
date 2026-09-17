@@ -100,5 +100,20 @@ class ImageSyntaxTests(unittest.TestCase):
         self.assertIn("Missing image: assets/missing.png", errors)
 
 
+    def test_angle_bracket_image_path_with_spaces_and_title(self):
+        result, output, errors = self.run_readme(
+            '![Preview](<assets/my image.png> "Profile preview")',
+            {"assets/my image.png": "placeholder"},
+        )
+        self.assertEqual(result, 0)
+        self.assertIn("1 local image references", output)
+        self.assertEqual(errors, "")
+
+    def test_missing_angle_bracket_image_is_reported(self):
+        result, _, errors = self.run_readme('![Preview](<assets/missing image.png>)')
+        self.assertEqual(result, 1)
+        self.assertIn("Missing image: assets/missing image.png", errors)
+
+
 if __name__ == "__main__":
     unittest.main()
