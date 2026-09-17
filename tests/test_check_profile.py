@@ -115,5 +115,22 @@ class ImageSyntaxTests(unittest.TestCase):
         self.assertIn("Missing image: assets/missing image.png", errors)
 
 
+    def test_uppercase_svg_extension_is_validated(self):
+        result, _, errors = self.run_readme(
+            "# Profile", {"assets/icons/BROKEN.SVG": "<svg>"}
+        )
+        self.assertEqual(result, 1)
+        self.assertIn("Malformed SVG", errors)
+        self.assertIn("BROKEN.SVG", errors)
+
+    def test_svg_named_directory_is_not_parsed(self):
+        result, output, errors = self.run_readme(
+            "# Profile", {"assets/folder.svg/readme.txt": "notes"}
+        )
+        self.assertEqual(result, 0)
+        self.assertIn("0 SVGs checked", output)
+        self.assertEqual(errors, "")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -54,7 +54,10 @@ def main():
             errors.append(f"Missing image: {reference}")
         checked.add(reference)
 
-    svgs = sorted((ROOT / "assets").rglob("*.svg"))
+    svgs = sorted(
+        path for path in (ROOT / "assets").rglob("*")
+        if path.is_file() and path.suffix.lower() == ".svg"
+    )
     for path in svgs:
         try:
             element = ET.parse(path).getroot()
