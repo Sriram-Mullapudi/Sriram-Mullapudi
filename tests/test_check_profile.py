@@ -40,5 +40,22 @@ class NestedSvgTests(unittest.TestCase):
         self.assertEqual(errors, "")
 
 
+class FileReadTests(unittest.TestCase):
+    def test_missing_readme_reports_error_without_traceback(self):
+        with TemporaryDirectory() as directory:
+            errors = StringIO()
+            with patch.object(checker, "ROOT", Path(directory)), redirect_stderr(errors):
+                result = checker.main()
+            self.assertEqual(result, 1)
+            self.assertIn("Cannot read README.md:", errors.getvalue())
+
+    def test_unreadable_svg_reports_error_without_traceback(self):
+        with patch.object(checker.ET, "parse", side_effect=PermissionError("access denied")):
+            result, _, errors = NestedSvgTests().check_svg('<svg xmlns="http://www.w3.org/2000/svg"/>')
+        self.assertEqual(result, 1)
+        self.assertIn("Cannot read SVG", errors)
+        self.assertIn("access denied", errors)
+
+
 if __name__ == "__main__":
     unittest.main()

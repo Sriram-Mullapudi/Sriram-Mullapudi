@@ -25,7 +25,11 @@ class ImageReferences(HTMLParser):
 
 
 def main():
-    readme = (ROOT / "README.md").read_text(encoding="utf-8-sig")
+    try:
+        readme = (ROOT / "README.md").read_text(encoding="utf-8-sig")
+    except (OSError, UnicodeError) as error:
+        print(f"Cannot read README.md: {error}", file=sys.stderr)
+        return 1
     parser = ImageReferences()
     parser.feed(readme)
     paths = parser.paths + re.findall(r"!\[[^\]]*\]\(([^\s)]+)\)", readme)
@@ -48,6 +52,8 @@ def main():
             element = ET.parse(path).getroot()
             if element.tag != "{http://www.w3.org/2000/svg}svg":
                 errors.append(f"Invalid SVG root: {path.relative_to(ROOT)}")
+        except OSError as error:
+            errors.append(f"Cannot read SVG {path.relative_to(ROOT)}: {error}")
         except ET.ParseError as error:
             errors.append(f"Malformed SVG {path.relative_to(ROOT)}: {error}")
 
