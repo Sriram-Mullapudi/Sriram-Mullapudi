@@ -57,5 +57,25 @@ class FileReadTests(unittest.TestCase):
         self.assertIn("access denied", errors)
 
 
+class RepeatedImageTests(unittest.TestCase):
+    def test_duplicate_markdown_and_html_images_report_once(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "README.md").write_text(
+                '![First](assets/missing.png)\n'
+                '<img src="assets/missing.png">\n'
+                '<source srcset="assets/missing.png 1x, assets/other.png 2x">',
+                encoding="utf-8",
+            )
+            errors = StringIO()
+            with patch.object(checker, "ROOT", root), redirect_stderr(errors):
+                result = checker.main()
+            self.assertEqual(result, 1)
+            self.assertEqual(errors.getvalue().splitlines(), [
+                "Missing image: assets/missing.png",
+                "Missing image: assets/other.png",
+            ])
+
+
 if __name__ == "__main__":
     unittest.main()

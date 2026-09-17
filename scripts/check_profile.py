@@ -35,7 +35,8 @@ def main():
     paths = parser.paths + re.findall(r"!\[[^\]]*\]\(([^\s)]+)\)", readme)
     errors = []
     checked = set()
-    for reference in paths:
+    # Preserve source order while reporting each repeated reference only once.
+    for reference in dict.fromkeys(paths):
         url = urlsplit(reference)
         if url.scheme or url.netloc or not url.path:
             continue
