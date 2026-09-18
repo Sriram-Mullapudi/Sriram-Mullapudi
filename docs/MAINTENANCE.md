@@ -78,3 +78,19 @@ Continue to inspect the rendered profile on desktop and mobile.
 
 The asset check includes SVGs in nested `assets/` folders. Run its regression
 checks with `python -m unittest discover -s tests` before modifying the checker.
+
+## Automated validation
+
+The **Validate profile** GitHub Actions workflow runs regression tests and the
+asset checker on pull requests and pushes to `main` that change the README,
+hand-authored assets, checker, tests, or validation workflow. It can also be run
+manually. Generated activity-card updates alone do not trigger this workflow.
+
+Validation has read-only repository access, installs no third-party Python
+packages, and does not modify or publish files. Check its logs if a profile edit
+fails validation. These checks report problems; they do not configure branch
+protection or prevent a direct push from reaching the public profile.
+
+The SVG check also validates declared `aria-labelledby` and `aria-describedby`
+references, including labels on nested elements. Keep those referenced IDs in
+the same SVG when editing or replacing titles and descriptions.
