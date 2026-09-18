@@ -132,5 +132,27 @@ class ImageSyntaxTests(unittest.TestCase):
         self.assertEqual(errors, "")
 
 
+    def test_missing_accessibility_label_is_reported(self):
+        svg = '<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="missing"/>'
+        result, _, errors = self.run_readme("# Profile", {"assets/icon.svg": svg})
+        self.assertEqual(result, 1)
+        self.assertIn("Broken aria-labelledby reference 'missing'", errors)
+
+    def test_valid_multiple_accessibility_references_pass(self):
+        svg = ('<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="title subtitle" '
+               'aria-describedby="description"><title id="title">Title</title>'
+               '<text id="subtitle">Subtitle</text><desc id="description">Description</desc></svg>')
+        result, _, errors = self.run_readme("# Profile", {"assets/icon.svg": svg})
+        self.assertEqual(result, 0)
+        self.assertEqual(errors, "")
+
+    def test_nested_missing_description_is_reported(self):
+        svg = ('<svg xmlns="http://www.w3.org/2000/svg">'
+               '<g aria-describedby="missing"/></svg>')
+        result, _, errors = self.run_readme("# Profile", {"assets/icon.svg": svg})
+        self.assertEqual(result, 1)
+        self.assertIn("Broken aria-describedby reference 'missing'", errors)
+
+
 if __name__ == "__main__":
     unittest.main()

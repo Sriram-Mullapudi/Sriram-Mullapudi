@@ -63,6 +63,14 @@ def main():
             element = ET.parse(path).getroot()
             if element.tag != "{http://www.w3.org/2000/svg}svg":
                 errors.append(f"Invalid SVG root: {path.relative_to(ROOT)}")
+            ids = {node.get("id") for node in element.iter() if node.get("id")}
+            for node in element.iter():
+                for attribute in ("aria-labelledby", "aria-describedby"):
+                    for target in node.get(attribute, "").split():
+                        if target not in ids:
+                            errors.append(
+                                f"Broken {attribute} reference '{target}' in {path.relative_to(ROOT)}"
+                            )
         except OSError as error:
             errors.append(f"Cannot read SVG {path.relative_to(ROOT)}: {error}")
         except ET.ParseError as error:
