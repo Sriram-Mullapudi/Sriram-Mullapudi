@@ -63,7 +63,18 @@ def main():
             element = ET.parse(path).getroot()
             if element.tag != "{http://www.w3.org/2000/svg}svg":
                 errors.append(f"Invalid SVG root: {path.relative_to(ROOT)}")
-            ids = {node.get("id") for node in element.iter() if node.get("id")}
+            ids = set()
+            duplicates = set()
+            for node in element.iter():
+                identifier = node.get("id")
+                if identifier:
+                    if identifier in ids:
+                        duplicates.add(identifier)
+                    ids.add(identifier)
+            for identifier in sorted(duplicates):
+                errors.append(
+                    f"Duplicate SVG id '{identifier}' in {path.relative_to(ROOT)}"
+                )
             for node in element.iter():
                 for attribute in ("aria-labelledby", "aria-describedby"):
                     for target in node.get(attribute, "").split():

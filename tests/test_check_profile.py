@@ -154,5 +154,21 @@ class ImageSyntaxTests(unittest.TestCase):
         self.assertIn("Broken aria-describedby reference 'missing'", errors)
 
 
+    def test_duplicate_svg_ids_are_reported_once(self):
+        svg = ('<svg xmlns="http://www.w3.org/2000/svg">'
+               '<title id="label">Title</title><g id="label"><path id="label"/></g></svg>')
+        result, _, errors = self.run_readme("# Profile", {"assets/icon.svg": svg})
+        self.assertEqual(result, 1)
+        self.assertEqual(errors.count("Duplicate SVG id 'label'"), 1)
+
+    def test_svg_ids_can_repeat_across_separate_files(self):
+        svg = '<svg xmlns="http://www.w3.org/2000/svg"><title id="title">Title</title></svg>'
+        result, _, errors = self.run_readme(
+            "# Profile", {"assets/one.svg": svg, "assets/two.svg": svg}
+        )
+        self.assertEqual(result, 0)
+        self.assertEqual(errors, "")
+
+
 if __name__ == "__main__":
     unittest.main()
