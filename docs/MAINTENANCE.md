@@ -94,3 +94,38 @@ protection or prevent a direct push from reaching the public profile.
 The SVG check also validates declared `aria-labelledby` and `aria-describedby`
 references, including labels on nested elements. Keep those referenced IDs in
 the same SVG when editing or replacing titles and descriptions.
+
+## Fixing SVG validation failures
+
+IDs must be unique within each SVG file. The same ID may appear in two separate
+files. If the checker reports `Duplicate SVG id 'title'`, rename the duplicate
+and update references that were intended to point to that element. Do not remove
+an accessible title merely to make the check pass.
+
+For `Broken SVG href '#mark'`, make sure an element with `id="mark"` exists in the
+same SVG. Both `href` and legacy `xlink:href` are checked. The target may be defined
+later in the file, so moving it above the reference is unnecessary.
+
+For example, this local shape reference is valid:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs><circle id="mark" cx="12" cy="12" r="8"/></defs>
+  <use href="#mark" fill="currentColor"/>
+</svg>
+```
+
+A `Broken aria-labelledby` or `Broken aria-describedby` message means that a
+space-separated ID in that attribute has no matching element. Restore the
+referenced title or description, or update the attribute to its new ID.
+
+After correcting an asset, run both commands from the repository root:
+
+```sh
+python -m unittest discover -s tests
+python scripts/check_profile.py
+```
+
+Then preview the SVG on GitHub. The checker does not validate external SVG
+references such as `icons.svg#mark`, CSS `url(#gradient)` references, or visual
+appearance; those still need manual inspection.
