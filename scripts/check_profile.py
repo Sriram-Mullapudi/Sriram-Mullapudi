@@ -76,6 +76,15 @@ def main():
                     f"Duplicate SVG id '{identifier}' in {path.relative_to(ROOT)}"
                 )
             for node in element.iter():
+                # SVG 2 href and legacy xlink:href can reuse local shapes/gradients.
+                for attribute in ("href", "{http://www.w3.org/1999/xlink}href"):
+                    reference = node.get(attribute, "").strip()
+                    if reference.startswith("#") and len(reference) > 1:
+                        target = unquote(reference[1:])
+                        if target not in ids:
+                            errors.append(
+                                f"Broken SVG href '{reference}' in {path.relative_to(ROOT)}"
+                            )
                 for attribute in ("aria-labelledby", "aria-describedby"):
                     for target in node.get(attribute, "").split():
                         if target not in ids:

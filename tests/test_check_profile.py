@@ -170,5 +170,27 @@ class ImageSyntaxTests(unittest.TestCase):
         self.assertEqual(errors, "")
 
 
+    def test_missing_local_svg_href_is_reported(self):
+        svg = '<svg xmlns="http://www.w3.org/2000/svg"><use href="#missing"/></svg>'
+        result, _, errors = self.run_readme("# Profile", {"assets/icon.svg": svg})
+        self.assertEqual(result, 1)
+        self.assertIn("Broken SVG href '#missing'", errors)
+
+    def test_missing_legacy_svg_href_is_reported(self):
+        svg = ('<svg xmlns="http://www.w3.org/2000/svg" '
+               'xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#missing"/></svg>')
+        result, _, errors = self.run_readme("# Profile", {"assets/icon.svg": svg})
+        self.assertEqual(result, 1)
+        self.assertIn("Broken SVG href '#missing'", errors)
+
+    def test_svg_forward_and_external_references_pass(self):
+        svg = ('<svg xmlns="http://www.w3.org/2000/svg">'
+               '<use href="#sh%61pe"/><path id="shape"/>'
+               '<use href="other.svg#symbol"/><a href="https://example.com/#about"/></svg>')
+        result, _, errors = self.run_readme("# Profile", {"assets/icon.svg": svg})
+        self.assertEqual(result, 0)
+        self.assertEqual(errors, "")
+
+
 if __name__ == "__main__":
     unittest.main()
